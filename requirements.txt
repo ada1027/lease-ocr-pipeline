@@ -1,0 +1,7 @@
+pymupdf>=1.24.0
+anthropic>=0.28.0
+pillow>=10.0.0
+opendataloader-pdf>=1.8.0
+pytesseract>=0.3.10
+pytest>=8.0.0
+python-dotenv>=1.0.0

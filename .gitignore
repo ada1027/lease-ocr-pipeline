@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Environment
+.env
+
+# Output & logs
+data/output/
+logs/
+
+# macOS
+.DS_Store
