@@ -1,12 +1,13 @@
-"""Claude Vision fallback — used when text extraction confidence is low."""
+"""Claude Vision fallback via OpenRouter — for low-confidence or fully scanned pages."""
 
 from __future__ import annotations
 
 import base64
+import json
 import os
 from typing import List
 
-import anthropic
+from openai import OpenAI
 
 from src.ai.extractor import MODEL, ExtractionResult
 from src.extraction.ocr import rasterize_page
@@ -19,58 +20,63 @@ FLOORPLAN_KEYWORDS = ["floor plan", "floor layout", "site plan", "exhibit", "sch
 
 
 def find_floorplan_pages(pages: List[PageInfo]) -> List[int]:
-    """Return 1-based page numbers that look like floorplans."""
+    """Return 1-based page numbers that look like floorplans or diagrams."""
     candidates = []
     for page in pages:
-        text_lower = page.text.lower()
-        if any(kw in text_lower for kw in FLOORPLAN_KEYWORDS):
+        if any(kw in page.text.lower() for kw in FLOORPLAN_KEYWORDS):
             candidates.append(page.page_number)
-    logger.info("Floorplan candidate pages: %s", candidates)
+    # If no keyword matches, fall back to all scanned pages
+    if not candidates:
+        candidates = [p.page_number for p in pages if p.mode == "scanned"]
+    logger.info("Vision candidate pages: %s", candidates)
     return candidates
 
 
 def extract_via_vision(pdf_path: str, page_numbers: List[int]) -> ExtractionResult:
-    """Send rasterized page images to Claude Vision and parse the result."""
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    """Send rasterized page images to Claude Vision via OpenRouter."""
+    client = OpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=os.environ["OPENROUTER_API_KEY"],
+    )
 
-    image_blocks = []
+    content = []
     for pn in page_numbers:
         png_bytes = rasterize_page(pdf_path, pn)
         b64 = base64.standard_b64encode(png_bytes).decode()
-        image_blocks.append(
-            {
-                "type": "image",
-                "source": {"type": "base64", "media_type": "image/png", "data": b64},
-            }
-        )
+        content.append({
+            "type": "image_url",
+            "image_url": {"url": f"data:image/png;base64,{b64}"},
+        })
         logger.debug("Encoded page %d for vision (%d bytes).", pn, len(png_bytes))
 
-    image_blocks.append(
-        {
-            "type": "text",
-            "text": (
-                "These are pages from a commercial lease. "
-                "Extract the primary leasable square footage from any diagrams, "
-                "tables, or annotations visible. "
-                "Return JSON with keys: square_footage, unit, confidence, evidence_snippet."
-            ),
-        }
-    )
+    content.append({
+        "type": "text",
+        "text": (
+            "These are pages from a commercial lease or property flyer. "
+            "Extract the primary leasable square footage from any text, "
+            "tables, diagrams, or annotations visible. "
+            "Return ONLY valid JSON with keys: "
+            "square_footage (integer or null), unit (\"sq ft\" or null), "
+            "confidence (\"high\"/\"medium\"/\"low\"), "
+            "evidence_snippet (what you saw, 200 chars max)."
+        ),
+    })
 
-    logger.info("Sending %d page image(s) to Claude Vision.", len(page_numbers))
-    message = client.messages.create(
+    logger.info("Sending %d page image(s) to Claude Vision via OpenRouter.", len(page_numbers))
+
+    response = client.chat.completions.create(
         model=MODEL,
         max_tokens=512,
-        messages=[{"role": "user", "content": image_blocks}],
+        messages=[{"role": "user", "content": content}],
     )
 
-    raw = message.content[0].text
-    import json
+    raw = response.choices[0].message.content
+    logger.debug("Vision raw response: %s", raw)
 
     try:
         data = json.loads(raw)
     except json.JSONDecodeError:
-        logger.error("Vision response non-JSON: %s", raw)
+        logger.error("Vision response was not valid JSON: %s", raw)
         return ExtractionResult(
             square_footage=None, unit=None, confidence="low",
             evidence_snippet="", raw_response=raw,
