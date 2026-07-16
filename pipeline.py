@@ -121,7 +121,7 @@ def run_single(pdf_path: str, store_id: str) -> dict:
 
 def run_batch(folder: str) -> None:
     """Run the pipeline on every PDF in a folder and print a summary report."""
-    pdfs = sorted(Path(folder).glob("*.pdf"))
+    pdfs = sorted(Path(folder).rglob("*.pdf"))
     if not pdfs:
         print(f"No PDFs found in {folder}")
         sys.exit(1)

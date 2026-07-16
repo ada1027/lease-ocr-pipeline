@@ -12,7 +12,7 @@ from src.utils.logging import get_logger
 
 logger = get_logger(__name__)
 
-MIN_PAGES = 2
+MIN_PAGES = 1
 MAX_PAGES = 200
 
 # Characters of extracted text below this threshold → treat page as scanned.
