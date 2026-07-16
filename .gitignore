@@ -11,7 +11,9 @@ __pycache__/
 
 # Output & logs
 data/output/
+data/SiteFiles*/
 logs/
+enrichment_table.csv
 
 # macOS
 .DS_Store
