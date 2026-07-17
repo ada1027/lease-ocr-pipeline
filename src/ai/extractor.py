@@ -16,15 +16,19 @@ logger = get_logger(__name__)
 MODEL = "anthropic/claude-sonnet-4-5"
 
 SYSTEM_PROMPT = """\
-You are a commercial real estate lease analyst. Extract the primary leasable square footage \
-from the lease text provided. Prioritize clauses from the "Demised Premises" or "Premises" \
-section over exhibits, riders, or schedules.
+You are a commercial real estate analyst. Extract the primary square footage from the document.
 
-Return ONLY valid JSON with these keys:
+Rules:
+- Accept any square footage figure: total center size, GLA, demised premises, suite size, or building size
+- If multiple sizes appear, pick the largest or most prominent one
+- Marketing flyers and tenant rosters are valid sources — use the total center/building size if present
+- "221,239 square foot" or "1,200 SF" are both valid
+
+Return ONLY raw JSON — no markdown, no code blocks, no backticks:
   square_footage   – integer or null
   unit             – "sq ft" | "sq m" | null
   confidence       – "high" | "medium" | "low"
-  evidence_snippet – the verbatim sentence(s) you relied on (200 chars max)
+  evidence_snippet – the exact text or description of what you found (200 chars max)
 """
 
 
@@ -37,6 +41,22 @@ class ExtractionResult:
     raw_response: str = ""
 
 
+def _strip_code_block(text: str) -> str:
+    """Remove ```json ... ``` or ``` ... ``` wrappers Claude sometimes adds."""
+    text = text.strip()
+    if text.startswith("```"):
+        text = text.split("\n", 1)[-1]   # remove first line (```json)
+        text = text.rsplit("```", 1)[0]  # remove trailing ```
+    return text.strip()
+
+
+def get_client() -> OpenAI:
+    return OpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=os.environ["OPENROUTER_API_KEY"],
+    )
+
+
 def extract_square_footage(candidate_text: str) -> ExtractionResult:
     """Send candidate text to Claude via OpenRouter and return structured result."""
     if not candidate_text.strip():
@@ -45,11 +65,7 @@ def extract_square_footage(candidate_text: str) -> ExtractionResult:
             square_footage=None, unit=None, confidence="low", evidence_snippet=""
         )
 
-    client = OpenAI(
-        base_url="https://openrouter.ai/api/v1",
-        api_key=os.environ["OPENROUTER_API_KEY"],
-    )
-
+    client = get_client()
     logger.info("Sending %d chars to %s via OpenRouter.", len(candidate_text), MODEL)
 
     response = client.chat.completions.create(
@@ -61,11 +77,11 @@ def extract_square_footage(candidate_text: str) -> ExtractionResult:
         ],
     )
 
-    raw = response.choices[0].message.content
+    raw = response.choices[0].message.content or ""
     logger.debug("Raw response: %s", raw)
 
     try:
-        data = json.loads(raw)
+        data = json.loads(_strip_code_block(raw))
     except json.JSONDecodeError:
         logger.error("Response was not valid JSON: %s", raw)
         return ExtractionResult(
