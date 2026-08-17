@@ -1,0 +1,963 @@
+pdf,store_folder,total_pages,searchable_pages,scanned_pages,text_chars_full,text_chars_sent,model_name,model_id,prompt_style,extraction_mode,temperature,reasoning,square_footage,unit,confidence,evidence_snippet,input_tokens,output_tokens,cost_usd,latency_sec,raw_response,timestamp
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",411,63,0.0012,1.83,"```json
+{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}
+```",2026-08-07T23:39:10.797323+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",390,63,0.0002745,1.03,"```json
+{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}
+```",2026-08-07T23:39:11.827331+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",390,63,6.420000000000002e-05,0.51,"```json
+{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}
+```",2026-08-07T23:39:12.338739+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 120205",390,508,0.0055675,5.35,"```json
+{
+  ""square_footage"": 120205",2026-08-07T23:39:17.689368+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",385,54,0.0001756,1.49,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}",2026-08-07T23:39:19.184438+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",385,422,0.00045606,7.6,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}",2026-08-07T23:39:26.786296+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,,,low,"JSON parse error: {
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+ ",386,512,0.0001922,4.32,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+ ",2026-08-07T23:39:31.108038+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",362,35,0.0003047,1.6,"{""square_footage"":120205,""unit"":""sq ft"",""confidence"":""high"",""evidence_snippet"":""Building Size.............................................................120,205 SF""}",2026-08-07T23:39:32.711212+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",363,45,0.0001632,1.95,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}",2026-08-07T23:39:34.657972+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",411,58,6.0969999999999994e-05,0.83,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}",2026-08-07T23:39:35.489328+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",305,57,0.0009519999999999999,1.16,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}
+```",2026-08-07T23:39:36.688585+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF 
+Available with 
+drive-thru",302,62,0.0002456,0.7,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF \nAvailable with \ndrive-thru""
+}
+```",2026-08-07T23:39:37.389722+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF 
+Available with 
+
+drive-thru",302,64,5.58e-05,0.67,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF \nAvailable with \n\ndrive-thru""
+}
+```",2026-08-07T23:39:38.058297+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 1400,
+  ""unit",302,508,0.0054575000000000005,5.77,"```json
+{
+  ""square_footage"": 1400,
+  ""unit",2026-08-07T23:39:43.831323+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",309,50,0.0001436,2.58,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}",2026-08-07T23:39:46.414825+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",309,377,0.00039974,5.79,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}",2026-08-07T23:39:52.209897+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,,,low,JSON parse error: ,310,512,0.0001846,3.46,,2026-08-07T23:39:55.672046+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",275,51,0.0002925,9.0,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}
+```",2026-08-07T23:40:04.668698+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",287,45,0.0001328,2.15,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}",2026-08-07T23:40:06.814573+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",305,52,4.640999999999999e-05,1.46,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}",2026-08-07T23:40:08.277011+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:40:08.309465+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:40:08.309491+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:40:08.309504+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:40:08.309516+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:40:08.309527+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:40:08.309538+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:40:08.309548+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:40:08.309559+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:40:08.309568+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:40:08.309578+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",382,55,0.001094,1.09,"```json
+{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}
+```",2026-08-07T23:40:10.302224+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,97535,sq ft,high,"SI ZE
+SI ZE
+
+97,535 square feet",370,66,0.000276,0.74,"```json
+{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SI ZE\nSI ZE\n\n97,535 square feet""
+}
+```",2026-08-07T23:40:11.038757+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,97535,sq ft,high,"SI ZE
+SI ZE
+97,535 square feet",370,64,6.26e-05,0.7,"```json
+{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SI ZE\nSI ZE\n97,535 square feet""
+}
+```",2026-08-07T23:40:11.740712+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 97535,",370,508,0.0055425000000000006,5.54,"```json
+{
+  ""square_footage"": 97535,",2026-08-07T23:40:17.283536+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",386,48,0.00017360000000000002,1.6,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-08-07T23:40:18.884072+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",386,385,0.00042372,6.8,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-08-07T23:40:25.683881+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",387,290,0.0001257,2.85,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-08-07T23:40:28.531216+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",362,30,0.00029219999999999995,1.25,"{""square_footage"":97535,""unit"":""sq ft"",""confidence"":""high"",""evidence_snippet"":""97,535 square feet""}",2026-08-07T23:40:29.782170+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",368,41,0.0001636,1.73,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-08-07T23:40:31.514921+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",382,50,5.616e-05,0.92,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-08-07T23:40:32.438437+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",373,55,0.0010760000000000001,1.09,"```json
+{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}
+```",2026-08-07T23:40:34.431223+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",357,56,0.0002471,0.73,"```json
+{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}
+```",2026-08-07T23:40:35.157175+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",357,56,5.81e-05,0.6,"```json
+{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}
+```",2026-08-07T23:40:35.755780+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 67019,
+  """,357,508,0.00552625,5.72,"```json
+{
+  ""square_footage"": 67019,
+  """,2026-08-07T23:40:41.474979+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",371,48,0.0001676,1.34,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-08-07T23:40:42.816849+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",371,419,0.00045034000000000003,5.56,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-08-07T23:40:48.376687+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",372,295,0.0001257,3.26,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-08-07T23:40:51.632659+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",357,30,0.0002892,1.48,"{""square_footage"":67019,""unit"":""sq ft"",""confidence"":""high"",""evidence_snippet"":""67,019 square feet""}",2026-08-07T23:40:53.114381+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",367,41,0.0001632,2.06,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-08-07T23:40:55.178649+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",373,50,5.499e-05,1.45,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-08-07T23:40:56.625051+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,,,low,,398,39,0.00103,1.03,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": """"
+}
+```",2026-08-07T23:41:00.905498+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,,,low,,387,40,0.0002161,0.7,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": null
+}
+```",2026-08-07T23:41:01.609439+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,,,low,"Crystal City Shopping Center is back! One of Tulsa's 
+
+oldest, iconic landmarks, Crystal City was originally 
+
+the site of a 1920's amusement park and a roller 
+
+coaster named The Zingo.",387,81,7.110000000000001e-05,0.83,"{""square_footage"": null, ""unit"": null, ""confidence"": ""low"", ""evidence_snippet"": ""Crystal City Shopping Center is back! One of Tulsa's \n\noldest, iconic landmarks, Crystal City was originally \n\nthe site of a 1920's amusement park and a roller \n\ncoaster named The Zingo.""}",2026-08-07T23:41:02.442388+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": null,
+  ""unit"": null,",387,508,0.00556375,5.38,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,",2026-08-07T23:41:07.825009+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,,,low,"Crystal City Shopping Center is back! One of Tulsa's oldest, iconic landmarks, Crystal City was originally the site of a 1920's amusement park and a roller coaster named The Zingo.",366,73,0.0001756,1.98,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""Crystal City Shopping Center is back! One of Tulsa's oldest, iconic landmarks, Crystal City was originally the site of a 1920's amusement park and a roller coaster named The Zingo.""
+}",2026-08-07T23:41:09.804296+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,,,low,,371,324,0.00036674000000000006,5.38,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": """"
+}",2026-08-07T23:41:15.187282+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,,,low,,371,381,0.0001514,3.49,"{""square_footage"": null, ""unit"": null, ""confidence"": ""low"", ""evidence_snippet"": null}",2026-08-07T23:41:18.675273+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,,,low,"No square footage figures found in document. Marketing flyer describes Crystal City Shopping Center renovation and tenants (AutoZone, Family Dollar, H & R Block) but contains no size measurements.",345,73,0.0003895,2.51,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""No square footage figures found in document. Marketing flyer describes Crystal City Shopping Center renovation and tenants (AutoZone, Family Dollar, H & R Block) but contains no size measurements.""
+}
+```",2026-08-07T23:41:21.188393+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,,,low,"Crystal City Shopping Center is back! One of Tulsa's oldest, iconic landmarks",357,47,0.0001616,2.2,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""Crystal City Shopping Center is back! One of Tulsa's oldest, iconic landmarks""
+}",2026-08-07T23:41:23.387600+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,100000,sq ft,high,"Crystal City Shopping Center is back! One of Tulsa's oldest, iconic landmarks, Crystal City was originally the site of a 1920's amusement park and a roller coaster named The Zingo. Historic Crystal Center has made a complete renovation - new exterior and upgraded interiors. New roof, new fascia, new HVAC systems, plumbing, electrical, signage - the works.",398,121,6.746999999999999e-05,1.12,"{
+  ""square_footage"": 100000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Crystal City Shopping Center is back! One of Tulsa's oldest, iconic landmarks, Crystal City was originally the site of a 1920's amusement park and a roller coaster named The Zingo. Historic Crystal Center has made a complete renovation - new exterior and upgraded interiors. New roof, new fascia, new HVAC systems, plumbing, electrical, signage - the works.""
+}",2026-08-07T23:41:24.506938+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,,,low,,320,39,0.000874,1.01,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": """"
+}
+```",2026-08-07T23:41:38.179688+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,,,low,,300,40,0.00019,0.64,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": null
+}
+```",2026-08-07T23:41:38.824159+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,,,low,,300,24,3.96e-05,0.51,"{""square_footage"": null, ""unit"": null, ""confidence"": ""low"", ""evidence_snippet"": """"}",2026-08-07T23:41:39.331100+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": null,
+  ""unit"": null,",300,508,0.005455000000000001,5.41,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,",2026-08-07T23:41:44.742719+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,,,low,"AES ine a ex hoe ese Sage eR Ses. <9 errr ee ee ‘Boulevard muy a c a PR, — 119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP",309,93,0.0001608,2.27,"
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""AES ine a ex hoe ese Sage eR Ses. <9 errr ee ee ‘Boulevard muy a c a PR, — 119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP""
+}",2026-08-07T23:41:47.014397+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,,,low,"PR, — 119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP",313,828,0.0007975,11.38,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""PR, — 119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP""
+}",2026-08-07T23:41:58.393513+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,,,low,bel \ ft ~ a lt,313,630,0.0002203,5.8,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""bel \\ ft ~ a lt""
+}",2026-08-07T23:42:04.194549+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,,,low,119 ABOVE GRADE PARKING STALLS,315,49,0.0003115,1.91,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""119 ABOVE GRADE PARKING STALLS""
+}
+```",2026-08-07T23:42:06.101976+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,,,low,"PR, — 119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP",315,63,0.0001512,2.22,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""PR, — 119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP""
+}",2026-08-07T23:42:08.326966+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,155000,sq ft,high,"155,000 sq ft",319,52,4.822999999999999e-05,0.64,"{
+  ""square_footage"": 155000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""155,000 sq ft""
+}",2026-08-07T23:42:08.972310+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,1400,sq ft,medium,"Suite 655—1,400 SF",570,58,0.001488,1.14,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""medium"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}
+```",2026-08-07T23:42:10.154361+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,1400,sq ft,high,"Available:
+
+Suite 655—1,400 SF",546,64,0.0003238,0.73,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Available:\n\nSuite 655—1,400 SF""
+}
+```",2026-08-07T23:42:10.883210+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",546,59,7.82e-05,0.66,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}
+```",2026-08-07T23:42:11.539923+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 1400,
+",546,508,0.0057625,5.76,"```json
+{
+  ""square_footage"": 1400,
+",2026-08-07T23:42:17.298078+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF $21.00 PSF/Year, NNN Approx. $6.08 NNN Craig Barnard | 503.616.2941 D | Email: craig@barnardcommercial.com",538,102,0.00025600000000000004,2.95,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF $21.00 PSF/Year, NNN Approx. $6.08 NNN Craig Barnard | 503.616.2941 D | Email: craig@barnardcommercial.com""
+}",2026-08-07T23:42:20.249284+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",538,285,0.00036916,4.71,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}",2026-08-07T23:42:24.957859+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",539,481,0.0001982,4.03,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}",2026-08-07T23:42:28.983404+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",475,50,0.00041,2.0,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}
+```",2026-08-07T23:42:30.984923+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",484,44,0.0002112,1.85,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}",2026-08-07T23:42:32.832758+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",570,53,8.098999999999998e-05,2.41,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}",2026-08-07T23:42:35.239740+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE
+1,046,359 square feet",384,63,0.001146,1.2,"```json
+{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE\n1,046,359 square feet""
+}
+```",2026-08-07T23:42:36.462121+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE
+1,046,359 square feet",363,64,0.0002689,0.75,"```json
+{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE\n1,046,359 square feet""
+}
+```",2026-08-07T23:42:37.216313+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE
+1,046,359 square feet",363,64,6.19e-05,0.53,"```json
+{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE\n1,046,359 square feet""
+}
+```",2026-08-07T23:42:37.746324+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 1046359,",363,508,0.0055337500000000005,5.46,"```json
+{
+  ""square_footage"": 1046359,",2026-08-07T23:42:43.204052+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",361,55,0.0001664,1.45,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}",2026-08-07T23:42:44.652883+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",366,419,0.00044924,6.84,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}",2026-08-07T23:42:51.489225+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",366,302,0.0001272,3.23,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}",2026-08-07T23:42:54.717368+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE
+1,046,359 square feet",339,52,0.00033339999999999997,10.91,"```json
+{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE\n1,046,359 square feet""
+}
+```",2026-08-07T23:43:05.632451+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",355,46,0.0001604,2.34,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}",2026-08-07T23:43:07.974347+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",382,59,5.7329999999999995e-05,1.86,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}",2026-08-07T23:43:09.830769+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",349,57,0.00104,1.4,"```json
+{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}
+```",2026-08-07T23:43:11.248121+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000
+Total SF",337,60,0.0002511,0.74,"```json
+{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000\nTotal SF""
+}
+```",2026-08-07T23:43:11.991254+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000
+Total SF",337,60,5.7700000000000007e-05,0.48,"```json
+{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000\nTotal SF""
+}
+```",2026-08-07T23:43:12.475848+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 260000",337,508,0.00550125,4.97,"```json
+{
+  ""square_footage"": 260000",2026-08-07T23:43:17.447845+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",343,50,0.00015720000000000003,1.47,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-08-07T23:43:18.921419+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",343,368,0.0003993,5.2,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-08-07T23:43:24.119711+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",344,352,0.00014,2.35,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-08-07T23:43:26.468438+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000
+Total SF",322,48,0.00031319999999999997,1.75,"```json
+{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000\nTotal SF""
+}
+```",2026-08-07T23:43:28.221271+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",332,41,0.0001492,1.37,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-08-07T23:43:29.595277+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",349,52,5.212999999999999e-05,0.98,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-08-07T23:43:30.579004+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,46000,sq ft,high,"Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.",501,101,0.001608,1.94,"```json
+{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.""
+}
+```",2026-08-07T23:43:34.680884+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,46000,sq ft,high,"at 200 S. Bell Blvd in this 46,000 square foot retail 
+development.",478,72,0.00032339999999999995,0.82,"```json
+{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""at 200 S. Bell Blvd in this 46,000 square foot retail \ndevelopment.""
+}
+```",2026-08-07T23:43:35.497677+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,46000,sq ft,high,"Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.",478,98,8.7e-05,0.67,"```json
+{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.""
+}
+```",2026-08-07T23:43:36.171426+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 46000,
+  """,478,508,0.0056775,6.04,"```json
+{
+  ""square_footage"": 46000,
+  """,2026-08-07T23:43:42.210882+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,46000,sq ft,high,"this 46,000 square foot retail development.",473,52,0.00020999999999999998,1.49,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""this 46,000 square foot retail development.""
+}",2026-08-07T23:43:43.702276+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,46000,sq ft,high,"Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.",473,446,0.00049654,6.75,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.""
+}",2026-08-07T23:43:50.453458+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,46000,sq ft,high,"Join Texas Discount Furniture... 46,000 square foot retail development.",473,323,0.00014419999999999998,3.03,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Join Texas Discount Furniture... 46,000 square foot retail development.""
+}",2026-08-07T23:43:53.481616+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,,,low,JSON parse error: ,418,512,0.0015308000000000001,14.31,,2026-08-07T23:44:07.792057+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,46000,sq ft,high,"this 46,000 square foot retail development",430,45,0.00019,1.43,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""this 46,000 square foot retail development""
+}",2026-08-07T23:44:09.221571+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,46000,sq ft,high,"46,000 square foot retail development.",501,52,7.188999999999999e-05,1.5,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,000 square foot retail development.""
+}",2026-08-07T23:44:10.722028+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,36155,sq ft,high,"LOT SIZE: 36,155 SF",432,59,0.001218,1.59,"```json
+{
+  ""square_footage"": 36155,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""LOT SIZE: 36,155 SF""
+}
+```",2026-08-07T23:44:12.325822+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE:
+7,080 SF",419,58,0.0002707,0.75,"```json
+{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE:\n7,080 SF""
+}
+```",2026-08-07T23:44:13.079059+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,7080,sq ft,high,"AVAILABLE SF:
+1,200 SF
+
+LEASE RATE:
+$1.15 SF/yr (NNN)
+
+LOT SIZE:
+36,155 SF
+
+YEAR BUILT:
+1981
+
+BUILDING SIZE:
+7,080 SF",419,119,8.950000000000001e-05,0.8,"```json
+{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""AVAILABLE SF:\n1,200 SF\n\nLEASE RATE:\n$1.15 SF/yr (NNN)\n\nLOT SIZE:\n36,155 SF\n\nYEAR BUILT:\n1981\n\nBUILDING SIZE:\n7,080 SF""
+}
+```",2026-08-07T23:44:13.884169+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 7080,
+  """,419,508,0.00560375,5.56,"```json
+{
+  ""square_footage"": 7080,
+  """,2026-08-07T23:44:19.445766+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,36155,sq ft,high,"LOT SIZE: 36,155 SF YEAR BUILT: 1981 BUILDING SIZE: 7,080 SF ZONING: C2 General Commercial",422,79,0.00020040000000000002,2.68,"{
+  ""square_footage"": 36155,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""LOT SIZE: 36,155 SF YEAR BUILT: 1981 BUILDING SIZE: 7,080 SF ZONING: C2 General Commercial""
+}",2026-08-07T23:44:22.128665+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",422,399,0.00044396,6.3,"{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}",2026-08-07T23:44:28.433609+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",422,541,0.00020449999999999998,4.81,"{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}",2026-08-07T23:44:33.244643+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",397,51,0.00036569999999999994,1.96,"```json
+{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}
+```",2026-08-07T23:44:35.200309+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",411,45,0.00018240000000000002,2.15,"{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}",2026-08-07T23:44:37.351791+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",432,53,6.305e-05,0.85,"{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}",2026-08-07T23:44:38.202917+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",533,74,0.00151,1.43,"```json
+{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}
+```",2026-08-07T23:44:39.657711+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet 
+of shopping and entertainment.",513,72,0.0003339,0.93,"{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet \nof shopping and entertainment.""
+}",2026-08-07T23:44:40.585176+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",513,76,8.170000000000001e-05,0.56,"```json
+{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}
+```",2026-08-07T23:44:41.144164+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 104000,
+",513,508,0.005721250000000001,5.3,"```json
+{
+  ""square_footage"": 104000,
+",2026-08-07T23:44:46.444379+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment. The Choctaw Village Shopping Center is perfect",508,77,0.000234,2.48,"{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment. The Choctaw Village Shopping Center is perfect""
+}",2026-08-07T23:44:48.926656+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",508,548,0.000594,7.72,"{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}",2026-08-07T23:44:56.642280+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet",509,347,0.00015499999999999997,2.1,"{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet""
+}",2026-08-07T23:44:58.746114+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,104000,sq ft,high,"Idabel's largest retail property, with 104,000 square feet of shopping and entertainment",467,60,0.00043019999999999994,2.02,"```json
+{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Idabel's largest retail property, with 104,000 square feet of shopping and entertainment""
+}
+```",2026-08-07T23:45:00.762898+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",481,58,0.0002156,2.94,"{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}",2026-08-07T23:45:03.701383+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,150000,sq ft,high,"The casino itself enjoys over 150,000 unique visits per year",533,60,7.709e-05,2.75,"{
+  ""square_footage"": 150000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""The casino itself enjoys over 150,000 unique visits per year""
+}",2026-08-07T23:45:06.456516+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2:	2,000 to ",473,69,0.00136,1.32,"```json
+{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2:	2,000 to 3,770 sf - Can be demised""
+}
+```",2026-08-07T23:45:07.906710+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,3770,sq ft,high," Suite 2:	
+2,000 to 3,770 sf - Can be demised",453,73,0.0003184,0.83,"```json
+{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": "" Suite 2:\t\n2,000 to 3,770 sf - Can be demised""
+}
+```",2026-08-07T23:45:08.735568+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,3770,sq ft,high,"Suite 2:
+2,000 to 3,770 sf - Can be demised",453,70,7.33e-05,0.54,"```json
+{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2:\n2,000 to 3,770 sf - Can be demised""
+}
+```",2026-08-07T23:45:09.273770+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 3770",453,508,0.00564625,5.39,"```json
+{
+  ""square_footage"": 3770",2026-08-07T23:45:14.668420+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,,,low,"JSON parse error: {
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2:	2,000 to 3,770 sf",461,62,0.00020920000000000002,1.65,"{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2:	2,000 to 3,770 sf - Can be demised""
+}",2026-08-07T23:45:16.319535+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,3770,sq ft,medium,"Suite 2: 2,000 to 3,770 sf - Can be demised",461,524,0.00056254,6.9,"{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""medium"",
+  ""evidence_snippet"": ""Suite 2: 2,000 to 3,770 sf - Can be demised""
+}",2026-08-07T23:45:23.221333+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,,,low,"JSON parse error: {
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+",462,512,0.0001998,3.54,"{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+",2026-08-07T23:45:26.762996+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,3770,sq ft,medium,"Suite 2:	2,000 to 3,770 sf - Can be demised",423,61,0.00040629999999999996,2.4,"```json
+{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""medium"",
+  ""evidence_snippet"": ""Suite 2:\t2,000 to 3,770 sf - Can be demised""
+}
+```",2026-08-07T23:45:29.162454+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,3770,sq ft,high," Suite 2: 2,000 to 3,770 sf - Can be demised",429,57,0.0001944,1.99,"{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": "" Suite 2: 2,000 to 3,770 sf - Can be demised""
+}",2026-08-07T23:45:31.148552+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,3770,sq ft,high,"Suite 2: 2,000 to 3,770 sf - Can be demised",475,65,7.02e-05,3.11,"{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2: 2,000 to 3,770 sf - Can be demised""
+}",2026-08-07T23:45:34.254791+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Mistral Large,mistralai/mistral-large,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",788,65,0.0019660000000000003,1.53,"```json
+{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}
+```",2026-08-07T23:45:35.822345+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Gemini 2.5 Flash,google/gemini-2.5-flash,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",767,62,0.0003851,0.75,"```json
+{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}
+```",2026-08-07T23:45:36.573452+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",767,61,0.0001011,0.5,"```json
+{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}
+```",2026-08-07T23:45:37.074348+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Gemini 2.5 Pro,google/gemini-2.5-pro,relaxed,text/first2,0.0,False,,,low,"JSON parse error: ```json
+{
+  ""square_footage"": 46444,",767,508,0.006038750000000001,5.2,"```json
+{
+  ""square_footage"": 46444,",2026-08-07T23:45:42.275437+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Qwen 2.5 VL 72B,qwen/qwen2.5-vl-72b-instruct,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",764,53,0.00032680000000000003,1.54,"{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}",2026-08-07T23:45:43.818635+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Qwen 3 235B,qwen/qwen3-235b-a22b,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",764,366,0.00049016,5.28,"{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}",2026-08-07T23:45:49.096301+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Qwen 3 30B,qwen/qwen3-30b-a3b,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",764,335,0.00017690000000000002,3.62,"{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}",2026-08-07T23:45:52.718006+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Kimi K2,moonshotai/kimi-k2,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",696,350,0.0012925999999999999,9.82,"{""square_footage"":46444,""unit"":""sq ft"",""confidence"":""high"",""evidence_snippet"":""46,444 SF Food Lion Anchored Neighborhood Center""}",2026-08-07T23:46:02.533791+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,MiniMax,minimax/minimax-01,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",700,46,0.0002984,1.65,"{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}",2026-08-07T23:46:04.187429+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Mistral Nemo,mistralai/mistral-nemo,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",788,57,0.00010985,1.71,"{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}",2026-08-07T23:46:05.899873+00:00

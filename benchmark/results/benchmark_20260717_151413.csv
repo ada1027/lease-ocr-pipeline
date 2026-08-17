@@ -1,0 +1,424 @@
+pdf,store_folder,total_pages,searchable_pages,scanned_pages,text_chars,model_name,model_id,square_footage,unit,confidence,evidence_snippet,input_tokens,output_tokens,cost_usd,latency_sec,raw_response,timestamp
+20240912131552443975.pdf,10099,7,7,0,3072,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,120205,sq ft,high,"Building Size.............................................................120,205 SF",1276,58,0.004698,2.17,"```json
+{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}
+```",2026-07-17T22:14:15.339206+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,GPT-4o,openai/gpt-4o,120205,sq ft,high,"Building Size.............................................................120,205 SF",1143,47,0.0033275,0.93,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}",2026-07-17T22:14:16.269234+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,GPT-4o Mini,openai/gpt-4o-mini,120205,sq ft,high,"Building Size.............................................................120,205 SF",1143,46,0.00019905,0.92,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}",2026-07-17T22:14:17.186633+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,DeepSeek Chat,deepseek/deepseek-chat,120205,sq ft,high,"Building Size.............................................................120,205 SF",1163,49,0.00017654,2.41,"```json
+{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}
+```",2026-07-17T22:14:19.594838+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,120205,sq ft,high,"Building Size.............................................................120,205 SF",1165,40,0.0001518,4.19,"{""square_footage"": 120205, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""Building Size.............................................................120,205 SF""}",2026-07-17T22:14:23.780205+00:00
+20240912132106205145.pdf,10439,4,4,0,372,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,1400,sq ft,high,"1,400 SF Available with drive-thru",295,59,0.0017699999999999999,2.19,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}
+```",2026-07-17T22:14:25.996360+00:00
+20240912132106205145.pdf,10439,4,4,0,372,GPT-4o,openai/gpt-4o,1400,sq ft,medium,"1,400 SF Available with drive-thru",270,47,0.001145,1.02,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""medium"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}",2026-07-17T22:14:27.019825+00:00
+20240912132106205145.pdf,10439,4,4,0,372,GPT-4o Mini,openai/gpt-4o-mini,1400,sq ft,high,"1,400 SF Available with drive-thru",270,47,6.87e-05,1.64,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}",2026-07-17T22:14:28.660498+00:00
+20240912132106205145.pdf,10439,4,4,0,372,DeepSeek Chat,deepseek/deepseek-chat,1400,sq ft,high,"1,400 SF Available with drive-thru",270,51,5.2079999999999996e-05,2.13,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}
+```",2026-07-17T22:14:30.792046+00:00
+20240912132106205145.pdf,10439,4,4,0,372,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,1400,sq ft,high,"1,400 SF Available with drive-thru",293,31,4.4460000000000005e-05,1.0,"{""square_footage"": 1400, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""1,400 SF Available with drive-thru""}",2026-07-17T22:14:31.795851+00:00
+20240912132122486809.pdf,10455,2,2,0,0,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,,,error,"Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""messages: at least one message is required""},""request_id"":""req_011Cd8QBBwEkDnfM56vFhRJE""}', 'provider_name': 'Azure', 'is_byok': False, 'previous_errors': [{'code': 400, 'message': 'Provider returned error', 'provider_name': 'Amazon Bedrock', 'raw': '{""message"":""messages: at least one message is required""}'}, {'code': 400, 'message': 'Provider returned error', 'provider_name': 'Google', 'raw': '{""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""messages: at least one message is required""},""request_id"":""req_vrtx_011Cd8QB4FNsFQd2AsNmyNCK""}'}, {'code': 400, 'message': 'Provider returned error', 'provider_name': 'Anthropic', 'raw': '{""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""messages: at least one message is required""},""request_id"":""req_011Cd8QB5muU4xGJpm1dFua1""}'}, {'code': 400, 'message': 'Provider returned error', 'provider_name': 'Anthropic', 'raw': '{""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""messages: at least one message is required""},""request_id"":""req_011Cd8QB6WZ8HpsoUMAdAkBP""}'}, {'code': 400, 'message': 'Provider returned error', 'provider_name': 'Amazon Bedrock', 'raw': '{""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""messages: at least one message is required""},""request_id"":""req_011Cd8QB7N9TtHRMVUSF7qBm""}'}, {'code': 400, 'message': 'Provider returned error', 'provider_name': 'Google', 'raw': '{""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""messages: at least one message is required""},""request_id"":""req_vrtx_011Cd8QB9Teyek4zHDe5tjea""}'}]}}, 'user_id': 'user_3Cv0rYA5ut94l7k3yZ6RmD3nJrP'}",0,0,0,0,,2026-07-17T22:14:34.909665+00:00
+20240912132122486809.pdf,10455,2,2,0,0,GPT-4o,openai/gpt-4o,,,low,,148,32,0.0006900000000000001,0.83,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": """"
+}",2026-07-17T22:14:35.737761+00:00
+20240912132122486809.pdf,10455,2,2,0,0,GPT-4o Mini,openai/gpt-4o-mini,,,low,,148,33,4.2e-05,1.51,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": """"
+}",2026-07-17T22:14:37.250859+00:00
+20240912132122486809.pdf,10455,2,2,0,0,DeepSeek Chat,deepseek/deepseek-chat,123456,sq ft,high,"The shopping center features a total GLA of 123,456 sq ft with a diverse tenant mix.",142,58,3.612e-05,2.48,"{
+  ""square_footage"": 123456,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""The shopping center features a total GLA of 123,456 sq ft with a diverse tenant mix.""
+}",2026-07-17T22:14:39.735924+00:00
+20240912132122486809.pdf,10455,2,2,0,0,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,,,low,No document provided,152,40,3.0240000000000002e-05,1.12,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""No document provided""
+}
+```",2026-07-17T22:14:40.851755+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,97535,sq ft,high,"97,535 square feet (from page 1 header) and confirmed as 'TOTAL SQ. FT. 97,535' (from page 2 tenant roster)",1102,88,0.004626,4.12,"```json
+{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet (from page 1 header) and confirmed as 'TOTAL SQ. FT. 97,535' (from page 2 tenant roster)""
+}
+```",2026-07-17T22:14:45.855585+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,GPT-4o,openai/gpt-4o,97535,sq ft,high,"TOTAL SQ. FT. 97,535",965,47,0.0028825,0.93,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""TOTAL SQ. FT. 97,535""
+}",2026-07-17T22:14:46.788791+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,GPT-4o Mini,openai/gpt-4o-mini,97535,sq ft,high,"97,535 square feet",965,43,0.00017055,1.51,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-07-17T22:14:48.295690+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,DeepSeek Chat,deepseek/deepseek-chat,97535,sq ft,high,"TOTAL SQ. FT. 97,535",993,48,0.00015246,2.09,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""TOTAL SQ. FT. 97,535""
+}",2026-07-17T22:14:50.389057+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,97535,sq ft,high,"97,535 square feet",995,36,0.0001302,2.11,"{""square_footage"": 97535, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""97,535 square feet""}",2026-07-17T22:14:52.497562+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,67019,sq ft,high,"SI ZE 67,019 square feet (Page 1); TOTAL SQ. FT. 67,019 (Page 2 tenant roster)",1083,83,0.004494,2.57,"```json
+{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SI ZE 67,019 square feet (Page 1); TOTAL SQ. FT. 67,019 (Page 2 tenant roster)""
+}
+```",2026-07-17T22:14:55.900029+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,GPT-4o,openai/gpt-4o,67019,sq ft,high,"67,019 square feet",949,43,0.0028025,0.82,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-07-17T22:14:56.724160+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,GPT-4o Mini,openai/gpt-4o-mini,67019,sq ft,high,"67,019 square feet",949,43,0.00016815,1.69,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-07-17T22:14:58.411092+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,DeepSeek Chat,deepseek/deepseek-chat,67019,sq ft,high,"67,019 square feet",976,47,0.00014979999999999998,2.36,"```json
+{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}
+```",2026-07-17T22:15:00.771410+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,67019,sq ft,high,"67,019 square feet",994,36,0.00013008,1.63,"{""square_footage"": 67019, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""67,019 square feet""}",2026-07-17T22:15:02.401563+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,111744,sq ft,high,"PROPERTY SPECIFICATIONS
+Property Type: Retail
+Class: B
+Building Size: 111,744 sf",1714,76,0.006281999999999999,2.64,"```json
+{
+  ""square_footage"": 111744,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""PROPERTY SPECIFICATIONS\nProperty Type: Retail\nClass: B\nBuilding Size: 111,744 sf""
+}
+```",2026-07-17T22:15:08.142843+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,GPT-4o,openai/gpt-4o,111744,sq ft,high,"Building Size: 111,744 sf",1436,45,0.00404,0.97,"{
+  ""square_footage"": 111744,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size: 111,744 sf""
+}",2026-07-17T22:15:09.110557+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,GPT-4o Mini,openai/gpt-4o-mini,111744,sq ft,high,"Building Size: 111,744 sf",1436,46,0.00024299999999999997,1.73,"{
+  ""square_footage"": 111744,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size: 111,744 sf""
+}",2026-07-17T22:15:10.844569+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,DeepSeek Chat,deepseek/deepseek-chat,111744,sq ft,high,"Building Size: 111,744 sf",1501,50,0.00022413999999999995,2.21,"```json
+{
+  ""square_footage"": 111744,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size: 111,744 sf""
+}
+```",2026-07-17T22:15:13.059141+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,111744,sq ft,high,"Building Size: 111,744 sf",1475,39,0.00018870000000000003,1.35,"{""square_footage"": 111744, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""Building Size: 111,744 sf""}",2026-07-17T22:15:14.407079+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,,,low,"Document contains property marketing materials for 5280 Geary Blvd, San Francisco including demographics and parking (119 stalls), but no clear square footage figure identified in OCR text.",1493,85,0.0057540000000000004,3.62,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""Document contains property marketing materials for 5280 Geary Blvd, San Francisco including demographics and parking (119 stalls), but no clear square footage figure identified in OCR text.""
+}
+```",2026-07-17T22:15:29.771709+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,GPT-4o,openai/gpt-4o,,,low,No clear square footage data found in the provided text,1318,44,0.003735,1.04,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""No clear square footage data found in the provided text""
+}",2026-07-17T22:15:30.812890+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,GPT-4o Mini,openai/gpt-4o-mini,,,low,No square footage figures found in the document.,1318,42,0.00022289999999999997,1.75,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""No square footage figures found in the document.""
+}",2026-07-17T22:15:32.559927+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,DeepSeek Chat,deepseek/deepseek-chat,,,low,No square footage data found in the document.,1339,45,0.00020005999999999998,2.56,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""No square footage data found in the document.""
+}
+```",2026-07-17T22:15:35.123518+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,,,low,no square footage information found,1331,32,0.00016931999999999998,1.33,"{""square_footage"": null, ""unit"": null, ""confidence"": ""low"", ""evidence_snippet"": ""no square footage information found""}",2026-07-17T22:15:36.454674+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,1400,sq ft,high,"Available: Suite 655—1,400 SF",916,59,0.003633,2.52,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Available: Suite 655—1,400 SF""
+}
+```",2026-07-17T22:15:39.011257+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,GPT-4o,openai/gpt-4o,1400,sq ft,high,"Suite 655—1,400 SF",772,46,0.00239,0.74,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}",2026-07-17T22:15:39.753998+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,GPT-4o Mini,openai/gpt-4o-mini,1400,sq ft,high,"Suite 655—1,400 SF",772,45,0.0001428,0.89,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}",2026-07-17T22:15:40.648738+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,DeepSeek Chat,deepseek/deepseek-chat,1400,sq ft,high,"Suite 655—1,400 SF",802,48,0.00012572,2.45,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}
+```",2026-07-17T22:15:43.102431+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,1400,sq ft,high,"Suite 655—1,400 SF",793,39,0.00010686,0.93,"{""square_footage"": 1400, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""Suite 655—1,400 SF""}",2026-07-17T22:15:44.028744+00:00
+20240918135005349219.pdf,11097,2,2,0,720,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,1046359,sq ft,high,"SIZE
+1,046,359 square feet",445,60,0.002235,2.23,"```json
+{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE\n1,046,359 square feet""
+}
+```",2026-07-17T22:15:46.282777+00:00
+20240918135005349219.pdf,11097,2,2,0,720,GPT-4o,openai/gpt-4o,1046359,sq ft,high,"SIZE 1,046,359 square feet",397,43,0.0014225000000000002,0.72,"{ ""square_footage"": 1046359, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""SIZE 1,046,359 square feet"" }",2026-07-17T22:15:46.999157+00:00
+20240918135005349219.pdf,11097,2,2,0,720,GPT-4o Mini,openai/gpt-4o-mini,1046359,sq ft,high,"SIZE 1,046,359 square feet",397,47,8.774999999999999e-05,1.02,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}",2026-07-17T22:15:48.023296+00:00
+20240918135005349219.pdf,11097,2,2,0,720,DeepSeek Chat,deepseek/deepseek-chat,1046359,sq ft,high,"SIZE 1,046,359 square feet",418,49,7.224e-05,2.38,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}",2026-07-17T22:15:50.405075+00:00
+20240918135005349219.pdf,11097,2,2,0,720,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,1046359,sq ft,high,"SIZE 1,046,359 square feet",422,41,6.293999999999999e-05,3.35,"{""square_footage"": 1046359, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""SIZE 1,046,359 square feet""}",2026-07-17T22:15:53.755644+00:00
+20240918140345125332.pdf,11524,2,2,0,843,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,260000,sq ft,high,"260,000 Total SF",403,54,0.002019,3.06,"```json
+{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}
+```",2026-07-17T22:15:56.841357+00:00
+20240918140345125332.pdf,11524,2,2,0,843,GPT-4o,openai/gpt-4o,260000,sq ft,high,"260,000 Total SF",371,43,0.0013575,0.77,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-07-17T22:15:57.607022+00:00
+20240918140345125332.pdf,11524,2,2,0,843,GPT-4o Mini,openai/gpt-4o-mini,260000,sq ft,high,"260,000 Total SF",371,43,8.145e-05,2.08,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-07-17T22:15:59.683443+00:00
+20240918140345125332.pdf,11524,2,2,0,843,DeepSeek Chat,deepseek/deepseek-chat,260000,sq ft,high,"260,000 Total SF",373,46,6.51e-05,3.08,"```json
+{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}
+```",2026-07-17T22:16:02.759464+00:00
+20240918140345125332.pdf,11524,2,2,0,843,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,260000,sq ft,high,"260,000 Total SF",375,36,5.58e-05,1.91,"{""square_footage"": 260000, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""260,000 Total SF""}",2026-07-17T22:16:04.668941+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,46000,sq ft,high,"Join Texas Discount Furniture, Moonie's Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.",2210,107,0.008235,2.57,"```json
+{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Join Texas Discount Furniture, Moonie's Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.""
+}
+```",2026-07-17T22:16:09.276394+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,GPT-4o,openai/gpt-4o,46000,sq ft,high,"this 46,000 square foot retail development.",1934,46,0.005295,0.73,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""this 46,000 square foot retail development.""
+}",2026-07-17T22:16:10.004005+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,GPT-4o Mini,openai/gpt-4o-mini,46000,sq ft,high,"200 S. Bell Blvd in this 46,000 square foot retail development.",1934,52,0.00032129999999999995,1.26,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""200 S. Bell Blvd in this 46,000 square foot retail development.""
+}",2026-07-17T22:16:11.261701+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,DeepSeek Chat,deepseek/deepseek-chat,46000,sq ft,high,"Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.",1995,87,0.00030366000000000003,3.84,"```json
+{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.""
+}
+```",2026-07-17T22:16:15.097145+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,46000,sq ft,high,"46,000 square foot retail development",1936,38,0.00024372,3.94,"{""square_footage"": 46000, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""46,000 square foot retail development""}",2026-07-17T22:16:19.033699+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",1551,58,0.005523,2.48,"```json
+{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}
+```",2026-07-17T22:16:21.539156+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,GPT-4o,openai/gpt-4o,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",1396,46,0.00395,0.79,"{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}",2026-07-17T22:16:22.325713+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,GPT-4o Mini,openai/gpt-4o-mini,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",1396,47,0.00023759999999999997,1.74,"{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}",2026-07-17T22:16:24.067315+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,DeepSeek Chat,deepseek/deepseek-chat,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",1434,52,0.00021531999999999996,2.48,"```json
+{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}
+```",2026-07-17T22:16:26.548589+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",1420,40,0.0001824,1.94,"{""square_footage"": 7080, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""}",2026-07-17T22:16:28.492944+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,104000,sq ft,high,"Open your business at Idabel's largest retail property, with 104,000 square feet of shopping and entertainment. The Choctaw Village Shopping Center",975,81,0.00414,2.0,"```json
+{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel's largest retail property, with 104,000 square feet of shopping and entertainment. The Choctaw Village Shopping Center""
+}
+```",2026-07-17T22:16:30.521331+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,GPT-4o,openai/gpt-4o,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",845,60,0.0027124999999999996,0.83,"{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}",2026-07-17T22:16:31.351058+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,GPT-4o Mini,openai/gpt-4o-mini,150000,sq ft,high,"Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment...the casino itself enjoys over 150,000 unique visits per year...",845,70,0.00016874999999999998,1.5,"{
+  ""square_footage"": 150000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment...the casino itself enjoys over 150,000 unique visits per year...""
+}",2026-07-17T22:16:32.852389+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,DeepSeek Chat,deepseek/deepseek-chat,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",867,65,0.00013958,2.89,"```json
+{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}
+```",2026-07-17T22:16:35.741875+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,104000,sq ft,high,"104,000 square feet of shopping and entertainment",856,40,0.00011472,1.5,"{""square_footage"": 104000, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""104,000 square feet of shopping and entertainment""}",2026-07-17T22:16:37.242255+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,42923,sq ft,high,"Building GLA: 42,923 sf",1090,58,0.0041400000000000005,1.53,"```json
+{
+  ""square_footage"": 42923,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building GLA: 42,923 sf""
+}
+```",2026-07-17T22:16:38.887951+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,GPT-4o,openai/gpt-4o,42923,sq ft,high,"Building GLA: 42,923 sf",945,42,0.0027825000000000003,0.6,"{ ""square_footage"": 42923, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""Building GLA: 42,923 sf"" }",2026-07-17T22:16:39.488049+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,GPT-4o Mini,openai/gpt-4o-mini,42923,sq ft,high,"Building GLA:  42,923 sf",945,47,0.00016994999999999998,1.1,"{
+  ""square_footage"": 42923,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building GLA:  42,923 sf""
+}",2026-07-17T22:16:40.592696+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,DeepSeek Chat,deepseek/deepseek-chat,42923,sq ft,high,"Building GLA: 42,923 sf",969,50,0.00014965999999999997,2.28,"```json
+{
+  ""square_footage"": 42923,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building GLA: 42,923 sf""
+}
+```",2026-07-17T22:16:42.873016+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,42923,sf,high,"Building GLA: 42,923 sf",956,38,0.00012612,0.61,"{""square_footage"": 42923, ""unit"": ""sf"", ""confidence"": ""high"", ""evidence_snippet"": ""Building GLA: 42,923 sf""}",2026-07-17T22:16:43.484917+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",906,61,0.003633,1.87,"```json
+{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}
+```",2026-07-17T22:16:45.406697+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,GPT-4o,openai/gpt-4o,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",778,47,0.002415,0.88,"{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}",2026-07-17T22:16:46.289496+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,GPT-4o Mini,openai/gpt-4o-mini,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",778,47,0.0001449,1.0,"{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}",2026-07-17T22:16:47.287421+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,DeepSeek Chat,deepseek/deepseek-chat,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",797,52,0.00012614,2.3,"```json
+{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}
+```",2026-07-17T22:16:49.588308+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,Llama 3.3 70B,meta-llama/llama-3.3-70b-instruct,46444,SF,high,"46,444 SF Food Lion Anchored Neighborhood Center",812,40,0.00010944000000000001,1.07,"{""square_footage"": 46444, ""unit"": ""SF"", ""confidence"": ""high"", ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""}",2026-07-17T22:16:50.654781+00:00

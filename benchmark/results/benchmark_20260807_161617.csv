@@ -1,0 +1,755 @@
+pdf,store_folder,total_pages,searchable_pages,scanned_pages,text_chars_full,text_chars_sent,model_name,model_id,prompt_style,extraction_mode,temperature,reasoning,square_footage,unit,confidence,evidence_snippet,input_tokens,output_tokens,cost_usd,latency_sec,raw_response,timestamp
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",403,65,6.149000000000001e-05,2.23,"
+```json
+{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}
+```",2026-08-07T23:16:19.579721+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",399,64,2.955e-05,1.78,"```json
+{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}
+```",2026-08-07T23:16:21.361524+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",400,64,3.168e-05,2.84,"```json
+{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}
+```",2026-08-07T23:16:24.204636+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",352,50,3.1639999999999995e-05,0.9,"```json
+{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}
+```",2026-08-07T23:16:25.101840+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size...120,205 SF",352,38,4.66e-05,0.57,"{""square_footage"": 120205, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""Building Size...120,205 SF""}",2026-08-07T23:16:25.670656+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",352,39,0.0001016,1.78,"{""square_footage"": 120205, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""Building Size.............................................................120,205 SF""}",2026-08-07T23:16:27.455451+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",396,55,2.409e-05,0.84,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}",2026-08-07T23:16:28.293658+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",348,47,0.0002144,1.1,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}",2026-08-07T23:16:29.391775+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",348,47,5.36e-05,0.86,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}",2026-08-07T23:16:30.254807+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF 
+Available with 
+
+drive-thru",311,65,5.413e-05,1.49,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF \nAvailable with \n\ndrive-thru""
+}
+```",2026-08-07T23:16:31.777642+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF 
+Available with 
+drive-thru",311,63,2.5e-05,1.37,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF \nAvailable with \ndrive-thru""
+}
+```",2026-08-07T23:16:33.148416+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",311,59,2.574e-05,1.78,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}
+```",2026-08-07T23:16:34.928797+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",274,50,2.618e-05,0.89,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}
+```",2026-08-07T23:16:35.814275+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,1400,SF,high,"1,400 SF Available with drive-thru",278,39,3.9500000000000005e-05,1.14,"{""square_footage"": 1400, ""unit"": ""SF"", ""confidence"": ""high"", ""evidence_snippet"": ""1,400 SF Available with drive-thru""}",2026-08-07T23:16:36.952483+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",278,40,8.760000000000002e-05,0.64,"{""square_footage"": 1400, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""1,400 SF Available with drive-thru""}",2026-08-07T23:16:37.589322+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,1400,sq ft,medium,"1,400 SF available with drive-thru",300,50,1.95e-05,0.75,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""medium"",
+  ""evidence_snippet"": ""1,400 SF available with drive-thru""
+}",2026-08-07T23:16:38.342662+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,1400,sq ft,medium,"1,200 SF Available  1,400 SF Available with drive-thru",270,54,0.0001944,1.39,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""medium"",
+  ""evidence_snippet"": ""1,200 SF Available  1,400 SF Available with drive-thru""
+}",2026-08-07T23:16:39.736191+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",270,47,4.58e-05,1.26,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}",2026-08-07T23:16:41.001157+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:16:41.030877+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:16:41.030905+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:16:41.030918+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:16:41.030931+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:16:41.030943+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:16:41.030955+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:16:41.030966+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:16:41.030980+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-07T23:16:41.030993+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",379,57,5.597e-05,4.2,"```json
+{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}
+```",2026-08-07T23:16:46.365245+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,97535,sq ft,high,"SI ZE
+SI ZE
+97,535 square feet",379,65,2.87e-05,1.55,"```json
+{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SI ZE\nSI ZE\n97,535 square feet""
+}
+```",2026-08-07T23:16:47.912284+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",380,57,2.964e-05,2.02,"```json
+{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}
+```",2026-08-07T23:16:49.931458+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",360,46,3.1639999999999995e-05,0.69,"```json
+{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}
+```",2026-08-07T23:16:50.622172+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",357,36,4.65e-05,0.61,"{""square_footage"": 97535, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""97,535 square feet""}",2026-08-07T23:16:51.234069+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",357,36,0.0001002,0.86,"{""square_footage"": 97535, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""97,535 square feet""}",2026-08-07T23:16:52.094126+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",380,48,2.2400000000000002e-05,0.87,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-08-07T23:16:52.968556+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",355,43,0.0002108,2.7,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-08-07T23:16:55.668973+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",355,43,5.27e-05,0.84,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-08-07T23:16:56.507019+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",366,57,5.4930000000000004e-05,4.41,"```json
+{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}
+```",2026-08-07T23:17:01.767616+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,67019,sq ft,high,"SI ZE
+SI ZE
+67,019 square feet",366,65,2.805e-05,1.42,"```json
+{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SI ZE\nSI ZE\n67,019 square feet""
+}
+```",2026-08-07T23:17:03.186918+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",366,57,2.8800000000000002e-05,2.33,"```json
+{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}
+```",2026-08-07T23:17:05.516757+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,67019,sq ft,high,"SI ZE
+SI ZE
+67,019 square feet",353,54,3.2269999999999994e-05,0.9,"```json
+{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SI ZE\nSI ZE\n67,019 square feet""
+}
+```",2026-08-07T23:17:06.414072+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",354,36,4.62e-05,0.56,"{""square_footage"": 67019, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""67,019 square feet""}",2026-08-07T23:17:06.976286+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",354,36,9.96e-05,0.58,"{""square_footage"": 67019, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""67,019 square feet""}",2026-08-07T23:17:07.560187+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",370,48,2.2e-05,0.86,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-08-07T23:17:08.419457+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",350,43,0.00020879999999999998,1.3,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-08-07T23:17:09.718097+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",350,43,5.2199999999999995e-05,0.88,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-08-07T23:17:10.600318+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,,,low,,400,42,5.0900000000000004e-05,1.29,"
+```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": null
+}
+```",2026-08-07T23:17:15.015723+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,,,low,"Crystal City Shopping Center is back! One of Tulsa's oldest, iconic landmarks, Crystal City was originally the site of a 1920's amusement park",396,76,3.12e-05,1.59,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""Crystal City Shopping Center is back! One of Tulsa's oldest, iconic landmarks, Crystal City was originally the site of a 1920's amusement park""
+}
+```",2026-08-07T23:17:16.609566+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,,,low,,398,41,2.8800000000000002e-05,2.28,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": null
+}
+```",2026-08-07T23:17:18.892211+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,,,low,"Crystal City Shopping Center is back! One of Tulsa's oldest, iconic landmarks, Crystal City was originally the site of a 1920's amusement park and a roller coaster named The Zingo.",347,75,3.479e-05,1.09,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""Crystal City Shopping Center is back! One of Tulsa's oldest, iconic landmarks, Crystal City was originally the site of a 1920's amusement park and a roller coaster named The Zingo.""
+}
+```",2026-08-07T23:17:19.987587+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,,,low,No square footage mentioned,350,31,4.429999999999999e-05,0.64,"{""square_footage"": null, ""unit"": null, ""confidence"": ""low"", ""evidence_snippet"": ""No square footage mentioned""}",2026-08-07T23:17:20.628738+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,,,low,No square footage mentioned,350,31,9.48e-05,0.75,"{""square_footage"": null, ""unit"": null, ""confidence"": ""low"", ""evidence_snippet"": ""No square footage mentioned""}",2026-08-07T23:17:21.381155+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,,,low,"JSON parse error: square_footage   – null
+unit             – null
+confidence       – medium
+evidence_snippet – ""Among the existing tenants",367,39,2.053e-05,1.17,"square_footage   – null
+unit             – null
+confidence       – medium
+evidence_snippet – ""Among the existing tenants are AutoZone, Family Dollar, H & R Block.""",2026-08-07T23:17:22.550030+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,,,low,No square footage information provided in the document.,344,32,0.00018879999999999998,1.19,"{""square_footage"":null,""unit"":null,""confidence"":""low"",""evidence_snippet"":""No square footage information provided in the document.""}",2026-08-07T23:17:23.736789+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,,,low,No specific square footage information provided in the text.,344,43,5.1599999999999994e-05,0.97,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""No specific square footage information provided in the text.""
+}",2026-08-07T23:17:24.705983+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,,,low,,312,42,4.3860000000000004e-05,0.83,"
+```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": null
+}
+```",2026-08-07T23:17:37.477051+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,119,sq ft,low,"119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP",308,75,2.665e-05,1.64,"```json
+{
+  ""square_footage"": 119,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP""
+}
+```",2026-08-07T23:17:39.119330+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,52,sq ft,medium,52 ON 3RD FLOOR,308,53,2.484e-05,5.99,"```json
+{
+  ""square_footage"": 52,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""medium"",
+  ""evidence_snippet"": ""52 ON 3RD FLOOR""
+}
+```",2026-08-07T23:17:45.114627+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,,,low,"PR, — 119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP",305,92,3.4229999999999996e-05,1.45,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""PR, — 119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP""
+}
+``` 
+
+The document does not provide any explicit square footage figures, only parking stall counts. Therefore, the square footage is null.",2026-08-07T23:17:46.562000+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,,,low,No square footage figure found,306,32,4.02e-05,0.16,"{""square_footage"": null, ""unit"": null, ""confidence"": ""low"", ""evidence_snippet"": ""No square footage figure found""}",2026-08-07T23:17:46.717421+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,,,low,,306,27,8.28e-05,1.98,"{""square_footage"": null, ""unit"": null, ""confidence"": ""low"", ""evidence_snippet"": """"}",2026-08-07T23:17:48.702314+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,,,low,"JSON parse error: square_footage   – 119
+unit             – ""sq ft""
+confidence       – ""high""
+evidence_snippet – ""ABOVE GRADE PARKING STAL",320,60,2.18e-05,1.08,"square_footage   – 119
+unit             – ""sq ft""
+confidence       – ""high""
+evidence_snippet – ""ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP""",2026-08-07T23:17:49.779621+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,,,low,No clear square footage information found in the provided text.,301,39,0.0001828,1.4,"{""square_footage"": null, ""unit"": null, ""confidence"": ""low"", ""evidence_snippet"": ""No clear square footage information found in the provided text.""}",2026-08-07T23:17:51.184919+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,,,low,No specific square footage information available in the provided pages.,301,44,4.77e-05,1.12,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""No specific square footage information available in the provided pages.""
+}",2026-08-07T23:17:52.310231+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",555,60,7.14e-05,1.39,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}
+```",2026-08-07T23:17:53.740105+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",555,60,3.675e-05,1.43,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}
+```",2026-08-07T23:17:55.171343+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",557,60,4.062e-05,2.68,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}
+```",2026-08-07T23:17:57.846699+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,1400,sq ft,high,"Available: Suite 655—1,400 SF",471,51,4.0109999999999994e-05,0.99,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Available: Suite 655—1,400 SF""
+}
+```",2026-08-07T23:17:58.836822+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,1400,SF,high,"Suite 655—1,400 SF",476,38,5.9e-05,0.17,"{""square_footage"": 1400, ""unit"": ""SF"", ""confidence"": ""high"", ""evidence_snippet"": ""Suite 655—1,400 SF""}",2026-08-07T23:17:59.006315+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",475,39,0.0001262,1.01,"{""square_footage"": 1400, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""Suite 655—1,400 SF""}",2026-08-07T23:18:00.016284+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",544,51,2.941e-05,0.92,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}",2026-08-07T23:18:00.939206+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,1400,sq ft,high,"Available: Suite 655—1,400 SF",463,48,0.000262,1.22,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Available: Suite 655—1,400 SF""
+}",2026-08-07T23:18:02.156394+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",463,46,6.47e-05,1.03,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}",2026-08-07T23:18:03.189993+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE
+1,046,359 square feet",372,65,5.9010000000000006e-05,8.09,"```json
+{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE\n1,046,359 square feet""
+}
+```",2026-08-07T23:18:11.306885+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE
+1,046,359 square feet",372,65,2.835e-05,1.21,"```json
+{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE\n1,046,359 square feet""
+}
+```",2026-08-07T23:18:12.514054+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",373,64,3.006e-05,2.65,"```json
+{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}
+```",2026-08-07T23:18:15.160884+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE
+1,046,359 square feet",334,51,3.052e-05,0.98,"```json
+{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE\n1,046,359 square feet""
+}
+```",2026-08-07T23:18:16.145679+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,1046359,square feet,high,"SIZE 1,046,359 square feet",338,41,4.61e-05,1.07,"{""square_footage"": 1046359, ""unit"": ""square feet"", ""confidence"": ""high"", ""evidence_snippet"": ""SIZE 1,046,359 square feet""}",2026-08-07T23:18:17.213210+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",338,41,0.0001004,0.57,"{""square_footage"": 1046359, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""SIZE 1,046,359 square feet""}",2026-08-07T23:18:17.785962+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",385,55,2.365e-05,1.03,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}",2026-08-07T23:18:18.818651+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",336,48,0.00021120000000000004,1.41,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}",2026-08-07T23:18:20.227309+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",336,48,5.280000000000001e-05,1.12,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}",2026-08-07T23:18:21.347155+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000
+Total SF",346,61,5.5129999999999996e-05,1.69,"```json
+{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000\nTotal SF""
+}
+```",2026-08-07T23:18:23.060949+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000
+Total SF",346,61,2.645e-05,1.3,"```json
+{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000\nTotal SF""
+}
+```",2026-08-07T23:18:24.359947+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",347,59,2.79e-05,1.36,"```json
+{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}
+```",2026-08-07T23:18:25.724663+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",315,46,2.8489999999999997e-05,0.71,"```json
+{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}
+```",2026-08-07T23:18:26.431007+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",321,36,4.29e-05,0.61,"{""square_footage"": 260000, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""260,000 Total SF""}",2026-08-07T23:18:27.038498+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",321,36,9.3e-05,0.73,"{""square_footage"": 260000, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""260,000 Total SF""}",2026-08-07T23:18:27.771812+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",343,50,2.1220000000000004e-05,0.93,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-08-07T23:18:28.697601+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",316,43,0.0001952,0.94,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-08-07T23:18:29.634073+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",316,43,4.88e-05,0.92,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-08-07T23:18:30.558781+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,46000,sq ft,high,"this 46,000 square foot retail development.",487,61,6.641e-05,2.09,"```json
+{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""this 46,000 square foot retail development.""
+}
+```",2026-08-07T23:18:34.708980+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,46000,sq ft,high,"Join Texas Discount Furniture...at 200 S. Bell Blvd in this 46,000 square foot retail development.",487,76,3.575e-05,1.57,"```json
+{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Join Texas Discount Furniture...at 200 S. Bell Blvd in this 46,000 square foot retail development.""
+}
+```",2026-08-07T23:18:36.274867+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,46000,sq ft,high,"46,000 square foot retail development",488,59,3.636e-05,1.24,"```json
+{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,000 square foot retail development""
+}
+```",2026-08-07T23:18:37.516845+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,46000,sq ft,high,"46,000 square foot retail development.",413,48,3.5629999999999996e-05,0.81,"```json
+{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,000 square foot retail development.""
+}
+```",2026-08-07T23:18:38.332020+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,46000,sq ft,high,"46,000 square foot retail development",418,38,5.32e-05,0.87,"{""square_footage"": 46000, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""46,000 square foot retail development""}",2026-08-07T23:18:39.198397+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,46000,sq ft,high,"this 46,000 square foot retail development",418,40,0.0001156,0.76,"{""square_footage"": 46000, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""this 46,000 square foot retail development""}",2026-08-07T23:18:39.957170+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,46000,sq ft,high,Located approximately 1 mile South of FM 1431 on Hwy 183 in the heart of thriving Cedar Park.,494,66,2.966e-05,0.97,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Located approximately 1 mile South of FM 1431 on Hwy 183 in the heart of thriving Cedar Park.""
+}",2026-08-07T23:18:40.930430+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,46000,sq ft,high,"Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.",417,82,0.000298,1.48,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.""
+}",2026-08-07T23:18:42.407622+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,46000,sq ft,high,"Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.",417,82,7.45e-05,1.48,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Join Texas Discount Furniture, Moonie’s Burger House, Sweet Shack Candy Shop, Advanced Pain Care and Gas Logs Express & BBQ Grills at 200 S. Bell Blvd in this 46,000 square foot retail development.""
+}",2026-08-07T23:18:43.885710+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE:
+7,080 SF",432,60,6.156e-05,1.02,"
+```json
+{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE:\n7,080 SF""
+}
+```",2026-08-07T23:18:44.926345+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",428,59,3.025e-05,1.38,"```json
+{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}
+```",2026-08-07T23:18:46.307857+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,1200,sq ft,high,"AVAILABLE SF:
+1,200 SF",428,58,3.264e-05,2.19,"```json
+{
+  ""square_footage"": 1200,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""AVAILABLE SF:\n1,200 SF""
+}
+```",2026-08-07T23:18:48.495563+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",392,50,3.4439999999999996e-05,1.24,"```json
+{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}
+```",2026-08-07T23:18:49.734564+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,7200,sq ft,high,"BUILDING SIZE: 7,080 SF",400,40,5.2000000000000004e-05,1.51,"{""square_footage"": 7200, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""}",2026-08-07T23:18:51.243742+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",400,40,0.00011200000000000001,0.94,"{""square_footage"": 7080, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""}",2026-08-07T23:18:52.184736+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",436,50,2.4940000000000002e-05,0.94,"{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}",2026-08-07T23:18:53.125934+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",392,34,0.00021120000000000004,1.03,"{""square_footage"":7080,""unit"":""sq ft"",""confidence"":""high"",""evidence_snippet"":""BUILDING SIZE: 7,080 SF""}",2026-08-07T23:18:54.153261+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",392,47,5.8e-05,1.07,"{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}",2026-08-07T23:18:55.220421+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet",526,74,7.538e-05,1.35,"
+```json
+{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet""
+}
+```",2026-08-07T23:18:56.603548+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",522,77,3.765e-05,1.88,"```json
+{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}
+```",2026-08-07T23:18:58.485532+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,104000,sq ft,high,"with 104,000 square feet of shopping and entertainment.",522,65,3.9120000000000005e-05,1.32,"```json
+{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""with 104,000 square feet of shopping and entertainment.""
+}
+```",2026-08-07T23:18:59.806613+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",464,63,4.13e-05,0.93,"```json
+{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}
+```",2026-08-07T23:19:00.741616+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",473,54,6.35e-05,0.74,"{""square_footage"": 104000, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""}",2026-08-07T23:19:01.484226+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,104000,sq ft,high,"Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment",473,49,0.0001338,3.57,"{""square_footage"": 104000, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment""}",2026-08-07T23:19:05.056990+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,104000,sq ft,high,"with 104,000 square feet of shopping and entertainment.",511,56,2.8840000000000002e-05,0.96,"{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""with 104,000 square feet of shopping and entertainment.""
+}",2026-08-07T23:19:06.016771+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,150000,sq ft,high,"The casino itself enjoys over 150,000 unique visits per year",464,51,0.0002672,3.01,"{
+  ""square_footage"": 150000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""The casino itself enjoys over 150,000 unique visits per year""
+}",2026-08-07T23:19:09.031946+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",464,60,7.04e-05,2.05,"{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}",2026-08-07T23:19:11.079116+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,3770,sq ft,high,"Suite 2:
+2,000 to 3,770 sf - Can be demised",462,71,6.891e-05,2.05,"```json
+{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2:\n2,000 to 3,770 sf - Can be demised""
+}
+```",2026-08-07T23:19:13.264217+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,3770,sq ft,high," Suite 2: 2,000 to 3,770 sf - Can be demised",462,72,3.39e-05,2.08,"```json
+{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": "" Suite 2: 2,000 to 3,770 sf - Can be demised""
+}
+```",2026-08-07T23:19:15.345089+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,3770,sq ft,high,"2,000 to 3,770 sf - Can be demised",462,66,3.5640000000000004e-05,1.67,"```json
+{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""2,000 to 3,770 sf - Can be demised""
+}
+```",2026-08-07T23:19:17.016000+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,3770,sq ft,high,"Suite 2: 2,000 to 3,770 sf - Can be demised",420,60,3.78e-05,1.03,"```json
+{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2: 2,000 to 3,770 sf - Can be demised""
+}
+```",2026-08-07T23:19:18.042806+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,3770,sf,high,"Suite 2: 2,000 to 3,770 sf",421,44,5.5299999999999996e-05,0.18,"{""square_footage"": 3770, ""unit"": ""sf"", ""confidence"": ""high"", ""evidence_snippet"": ""Suite 2: 2,000 to 3,770 sf""}",2026-08-07T23:19:18.227810+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,3770,sq ft,high,"Suite 2: 2,000 to 3,770 sf - Can be demised",421,50,0.0001242,1.11,"{""square_footage"": 3770, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""Suite 2: 2,000 to 3,770 sf - Can be demised""}",2026-08-07T23:19:19.336627+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,,,low,"JSON parse error: {
+  ""square_footage"": 7052,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1565 Cliff Road\n Suite 2",461,124,3.704e-05,1.86,"{
+  ""square_footage"": 7052,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1565 Cliff Road\n Suite 2:	2,000 to 3,770 sf - Can be demised\n Suite 5-6:	1,200 to 2,417 sf - Can be demised\n Suite 13:	841 sf - Available 7/1/22""
+}",2026-08-07T23:19:21.193519+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,3770,sq ft,high,"Suite 2: 2,000 to 3,770 sf - Can be demised",415,57,0.0002572,1.5,"{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2: 2,000 to 3,770 sf - Can be demised""
+}",2026-08-07T23:19:22.691445+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,3770,sq ft,high,"Suite 2: 2,000 to 3,770 sf - Can be demised",415,57,6.43e-05,0.9,"{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2: 2,000 to 3,770 sf - Can be demised""
+}",2026-08-07T23:19:23.592299+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Gemma 3 27B,google/gemma-3-27b-it,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",776,62,8.998e-05,3.01,"```json
+{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}
+```",2026-08-07T23:19:26.654689+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Gemma 3 12B,google/gemma-3-12b-it,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",776,62,4.8100000000000004e-05,2.33,"```json
+{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}
+```",2026-08-07T23:19:28.986265+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Gemma 3n E4B,google/gemma-3n-e4b-it,relaxed,text/first2,0.0,False,4000,sq ft,high,"One 4,000 SF (Turn-Key Restaurant Space)",776,62,5.4e-05,1.24,"```json
+{
+  ""square_footage"": 4000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""One 4,000 SF (Turn-Key Restaurant Space)""
+}
+```",2026-08-07T23:19:30.228388+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Phi-4,microsoft/phi-4,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",688,51,5.529999999999999e-05,0.85,"```json
+{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}
+```",2026-08-07T23:19:31.083634+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Llama 4 Scout,meta-llama/llama-4-scout,relaxed,text/first2,0.0,False,46444,SF,high,"46,444 SF Food Lion Anchored Neighborhood Center",692,40,8.12e-05,0.18,"{""square_footage"": 46444, ""unit"": ""SF"", ""confidence"": ""high"", ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""}",2026-08-07T23:19:31.264589+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Llama 4 Maverick,meta-llama/llama-4-maverick,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",692,43,0.0001728,3.63,"{""square_footage"": 46444, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""}",2026-08-07T23:19:34.895272+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Cohere Command R7B,cohere/command-r7b-12-2024,relaxed,text/first2,0.0,False,1500,sq ft,high,"Two 1,500 SF Spaces Available (One End Cap and One In-Line)",782,58,3.998000000000001e-05,0.99,"{
+  ""square_footage"": 1500,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Two 1,500 SF Spaces Available (One End Cap and One In-Line)""
+}",2026-08-07T23:19:35.887233+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,GPT-4.1 Mini,openai/gpt-4.1-mini,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",678,48,0.00034800000000000006,1.34,"{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}",2026-08-07T23:19:37.231461+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,GPT-4.1 Nano,openai/gpt-4.1-nano,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",678,48,8.700000000000001e-05,0.87,"{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}",2026-08-07T23:19:38.106379+00:00

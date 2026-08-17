@@ -1,0 +1,10 @@
+pdf,store_folder,total_pages,searchable_pages,scanned_pages,text_chars,model_name,model_id,square_footage,unit,confidence,evidence_snippet,input_tokens,output_tokens,cost_usd,latency_sec,raw_response,timestamp
+20240912131552443975.pdf,10099,7,7,0,3072,Claude Sonnet 4.5,anthropic/claude-sonnet-4-5,120205,sq ft,high,"Building Size.............................................................120,205 SF",1276,58,0.004698,3.63,"```json
+{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}
+```",2026-07-17T21:50:37.444506+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,Claude Haiku 3.5,anthropic/claude-haiku-3-5,,,error,"Error code: 400 - {'error': {'message': 'anthropic/claude-haiku-3-5 is not a valid model ID', 'code': 400}, 'user_id': 'user_3Cv0rYA5ut94l7k3yZ6RmD3nJrP'}",0,0,0,0,,2026-07-17T21:50:37.457222+00:00

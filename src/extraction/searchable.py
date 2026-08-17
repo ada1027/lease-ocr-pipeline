@@ -37,9 +37,21 @@ def extract_candidate_text(pages: List[PageInfo]) -> str:
         else:
             logger.debug("Page %d: no signals found — skipped.", page.page_number)
 
+    searchable_pages = [p for p in pages if p.mode == "searchable"]
     logger.info(
         "Candidate pages from searchable extraction: %d / %d",
         len(candidates),
-        sum(1 for p in pages if p.mode == "searchable"),
+        len(searchable_pages),
     )
-    return "\n\n".join(candidates)
+
+    if candidates:
+        return "\n\n".join(candidates)
+
+    # No keyword matches — send all searchable text so the AI can still attempt extraction.
+    # Better to let the model decide than to silently drop documents with non-standard phrasing.
+    logger.info("No signal pages matched — falling back to full searchable text.")
+    return "\n\n".join(
+        f"--- Page {p.page_number} ---\n{p.text.strip()}"
+        for p in searchable_pages
+        if p.text.strip()
+    )

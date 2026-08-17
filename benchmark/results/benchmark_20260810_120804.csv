@@ -1,0 +1,321 @@
+pdf,store_folder,total_pages,searchable_pages,scanned_pages,text_chars_full,text_chars_sent,model_name,model_id,prompt_style,extraction_mode,temperature,reasoning,square_footage,unit,confidence,evidence_snippet,input_tokens,output_tokens,cost_usd,latency_sec,raw_response,timestamp
+20240912131552443975.pdf,10099,7,7,0,3072,1051,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",346,123,8.287999999999999e-05,3.53,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}",2026-08-10T19:08:07.703598+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",346,107,0.0002464,2.18,"{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}",2026-08-10T19:08:09.888875+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",386,58,8.71e-05,2.12,"```json
+{
+  ""square_footage"": 120205,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Building Size.............................................................120,205 SF""
+}
+```
+",2026-08-10T19:08:12.005979+00:00
+20240912131552443975.pdf,10099,7,7,0,3072,1051,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,120205,sq ft,high,"Building Size.............................................................120,205 SF",359,433,0.00027616,4.84,"{""square_footage"":120205,""unit"":""sq ft"",""confidence"":""high"",""evidence_snippet"":""Building Size.............................................................120,205 SF""}",2026-08-10T19:08:16.843505+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",271,46,5.082e-05,1.42,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}",2026-08-10T19:08:18.286991+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",271,118,0.00022308,3.43,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}",2026-08-10T19:08:21.712311+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,1400,sq ft,high,"1,400 SF Available with drive-thru",305,54,7.348e-05,2.05,"```json
+{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""1,400 SF Available with drive-thru""
+}
+```
+",2026-08-10T19:08:23.760985+00:00
+20240912132106205145.pdf,10439,4,4,0,372,372,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,,,low,JSON parse error: ,277,64,6.993e-05,1.57,,2026-08-10T19:08:25.335131+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-10T19:08:25.365742+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-10T19:08:25.365768+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-10T19:08:25.365782+00:00
+20240912132122486809.pdf,10455,2,2,0,0,0,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,,,low,no text extracted from document,0,0,0,0,,2026-08-10T19:08:25.365794+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",356,42,6.159999999999999e-05,3.72,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-08-10T19:08:30.419095+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",356,80,0.00022704,3.44,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-08-10T19:08:33.860652+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",382,52,8.311999999999999e-05,1.93,"```json
+{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}
+```
+",2026-08-10T19:08:35.791254+00:00
+20240918142905086890.pdf,10103,4,3,1,2358,496,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,97535,sq ft,high,"97,535 square feet",364,305,0.00020897,6.38,"{
+  ""square_footage"": 97535,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""97,535 square feet""
+}",2026-08-10T19:08:42.176165+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",354,90,7.476e-05,1.38,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-08-10T19:08:44.830105+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,67019,sq ft,high,"SI ZE
+67,019 square feet",354,95,0.00023935999999999999,4.72,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SI ZE\n67,019 square feet""
+}",2026-08-10T19:08:49.549240+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",367,52,8.102e-05,2.02,"```json
+{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}
+```
+",2026-08-10T19:08:51.571902+00:00
+20240918134820671739.pdf,10195,4,3,1,2382,491,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,67019,sq ft,high,"67,019 square feet",365,385,0.0002515,7.13,"{
+  ""square_footage"": 67019,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""67,019 square feet""
+}",2026-08-10T19:08:58.701352+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,,,low,,344,32,5.7119999999999995e-05,0.9,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": """"
+}",2026-08-10T19:09:04.392788+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,,,low,,344,281,0.00039864,4.36,"{""square_footage"": null, ""unit"": null, ""confidence"": ""low"", ""evidence_snippet"": """"}",2026-08-10T19:09:08.753705+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,,,low,No square footage information provided in the document.,367,40,7.418e-05,1.9,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""No square footage information provided in the document.""
+}
+",2026-08-10T19:09:10.652781+00:00
+20240912131941034699.pdf,10350,10,4,6,3732,796,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,,,low,JSON parse error: ,359,512,0.00031803,5.39,,2026-08-10T19:09:16.046077+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,,,low,No square footage figure found in the document.,305,257,0.00011465999999999999,3.04,"{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""No square footage figure found in the document.""
+}",2026-08-10T19:09:36.956460+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,,,low,16TH AVENUE | retail,305,271,0.00037268,4.59,"{""square_footage"": null, ""unit"": null, ""confidence"": ""low"", ""evidence_snippet"": ""16TH AVENUE | retail""}",2026-08-10T19:09:41.548244+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,,,low,"PR, — 119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP",310,71,8.387e-05,2.08,"```json
+{
+  ""square_footage"": null,
+  ""unit"": null,
+  ""confidence"": ""low"",
+  ""evidence_snippet"": ""PR, — 119 ABOVE GRADE PARKING STALLS - 52 ON 3RD FLOOR, 67 ON ROOFTOP""
+}
+```
+",2026-08-10T19:09:43.624677+00:00
+20240912104716746251.pdf,1001,9,2,7,2779,358,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,,,low,JSON parse error: ,314,512,0.00031218,7.43,,2026-08-10T19:09:51.053341+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",481,165,0.00011353999999999999,4.43,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}",2026-08-10T19:09:55.522356+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",481,129,0.00032516,2.78,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}",2026-08-10T19:09:58.301915+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,1400,sq ft,high,"Available: Suite 655—1,400 SF",534,52,0.00010439999999999999,1.87,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Available: Suite 655—1,400 SF""
+}
+",2026-08-10T19:10:00.174498+00:00
+20240912132524295488.pdf,10713,2,2,0,2335,1107,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,1400,sq ft,high,"Suite 655—1,400 SF",491,441,0.00029756,6.51,"{
+  ""square_footage"": 1400,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 655—1,400 SF""
+}",2026-08-10T19:10:06.686713+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",353,132,8.638e-05,4.69,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}",2026-08-10T19:10:11.401258+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE
+1,046,359 square feet",353,48,0.00019756,2.02,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE\n1,046,359 square feet""
+}",2026-08-10T19:10:13.419851+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE 1,046,359 square feet",362,59,8.430999999999998e-05,2.02,"```json
+{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE 1,046,359 square feet""
+}
+```
+",2026-08-10T19:10:15.443063+00:00
+20240918135005349219.pdf,11097,2,2,0,720,539,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,1046359,sq ft,high,"SIZE
+1,046,359 square feet",363,487,0.0003053,6.55,"{
+  ""square_footage"": 1046359,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""SIZE\n1,046,359 square feet""
+}",2026-08-10T19:10:21.996408+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",317,42,5.614e-05,2.11,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-08-10T19:10:24.130584+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",317,102,0.00022924000000000002,4.17,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}",2026-08-10T19:10:28.304070+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,260000,sq ft,high,"260,000 Total SF",339,54,7.824e-05,1.96,"```json
+{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""260,000 Total SF""
+}
+```
+",2026-08-10T19:10:30.260362+00:00
+20240918140345125332.pdf,11524,2,2,0,843,692,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,,,low,"JSON parse error: {
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  """,327,512,0.00031387,6.79,"{
+  ""square_footage"": 260000,
+  ""unit"": ""sq ft"",
+  """,2026-08-10T19:10:37.053237+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,46000,sq ft,high,"46,000 square foot retail development",422,44,7.139999999999999e-05,15.86,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,000 square foot retail development""
+}",2026-08-10T19:10:56.077015+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,46000,sq ft,high,"46,000 square foot retail development.",422,117,0.00028864,2.71,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,000 square foot retail development.""
+}",2026-08-10T19:10:58.790839+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,46000,sq ft,high,"this 46,000 square foot retail development",469,51,9.472999999999998e-05,1.82,"{
+  ""square_footage"": 46000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""this 46,000 square foot retail development""
+}
+",2026-08-10T19:11:00.610395+00:00
+20240912133001408947.pdf,10977,7,6,1,6902,838,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,,,low,JSON parse error: ,437,512,0.00032817,26.5,,2026-08-10T19:11:27.110774+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",396,235,0.00012123999999999998,4.46,"{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}",2026-08-10T19:11:31.592748+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,7080,sq ft,medium,"BUILDING SIZE: 7,080 SF",396,477,0.000594,7.34,"{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""medium"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}",2026-08-10T19:11:38.935383+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,7080,sq ft,high,"BUILDING SIZE: 7,080 SF",418,54,8.93e-05,1.85,"```json
+{
+  ""square_footage"": 7080,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""BUILDING SIZE: 7,080 SF""
+}
+```
+",2026-08-10T19:11:40.787421+00:00
+20240912132708411685.pdf,10800,4,4,0,4925,1013,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,,,low,JSON parse error: ,407,512,0.00032427,12.76,,2026-08-10T19:11:53.548232+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",466,60,8.204e-05,2.63,"{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}",2026-08-10T19:11:56.209138+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,104000,sq ft,high,"Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",466,231,0.00040832000000000005,3.47,"{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}",2026-08-10T19:11:59.677849+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,104000,sq ft,high,"Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.",504,66,0.00010817999999999998,1.99,"{
+  ""square_footage"": 104000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Open your business at Idabel’s largest retail property, with 104,000 square feet of shopping and entertainment.""
+}
+",2026-08-10T19:12:01.665497+00:00
+20240912103837517060.pdf,1150,3,3,0,2686,1363,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,,,low,JSON parse error: ,478,512,0.00033350000000000003,6.62,,2026-08-10T19:12:08.289063+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,3770,sq ft,medium,"Suite 2: 2,000 to 3,770 sf",418,296,0.0001414,3.51,"{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""medium"",
+  ""evidence_snippet"": ""Suite 2: 2,000 to 3,770 sf""
+}",2026-08-10T19:12:11.978279+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,3770,sq ft,high,"Suite 2:	2,000 to 3,770 sf - Can be demised",418,292,0.00044087999999999994,7.39,"{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2:\t2,000 to 3,770 sf - Can be demised""
+}",2026-08-10T19:12:19.372333+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,3770,sq ft,high,"Suite 2: 2,000 to 3,770 sf - Can be demised",457,66,0.0001016,2.08,"```json
+{
+  ""square_footage"": 3770,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Suite 2: 2,000 to 3,770 sf - Can be demised""
+}
+```
+",2026-08-10T19:12:21.453979+00:00
+20240912132441386579.pdf,10657,6,6,0,2603,891,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,,,low,JSON parse error: ,421,512,0.00032609,6.81,,2026-08-10T19:12:28.260726+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,DeepSeek V4 Flash,deepseek/deepseek-v4-flash,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",697,47,0.00011073999999999999,6.2,"{
+  ""square_footage"": 46444,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""
+}",2026-08-10T19:12:34.511698+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,DeepSeek V4 Pro,deepseek/deepseek-v4-pro,relaxed,text/first2,0.0,False,46444,sq ft,high,"46,444 SF Food Lion Anchored Neighborhood Center",697,193,0.00047652,4.47,"{""square_footage"": 46444, ""unit"": ""sq ft"", ""confidence"": ""high"", ""evidence_snippet"": ""46,444 SF Food Lion Anchored Neighborhood Center""}",2026-08-10T19:12:38.983852+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Hunyuan A13B,tencent/hunyuan-a13b-instruct,relaxed,text/first2,0.0,False,4000,sq ft,high,"Two 1,500 SF Spaces Available (One End Cap and One In-Line) and One 4,000 SF (Turn-Key Restaurant Space)",760,71,0.00014687,2.11,"{
+  ""square_footage"": 4000,
+  ""unit"": ""sq ft"",
+  ""confidence"": ""high"",
+  ""evidence_snippet"": ""Two 1,500 SF Spaces Available (One End Cap and One In-Line) and One 4,000 SF (Turn-Key Restaurant Space)""
+}
+",2026-08-10T19:12:41.096401+00:00
+20240912133302950116.pdf,11163,11,11,0,2266,1973,Hunyuan HY3,tencent/hy3,relaxed,text/first2,0.0,False,,,low,"JSON parse error: {
+  ""square_footage"": 46444,
+ ",707,512,0.00036327,9.52,"{
+  ""square_footage"": 46444,
+ ",2026-08-10T19:12:50.616592+00:00

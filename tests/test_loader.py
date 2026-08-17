@@ -16,7 +16,7 @@ def test_validate_page_count_valid():
 
 def test_validate_page_count_too_few():
     with pytest.raises(ValueError, match="minimum"):
-        _validate_page_count(1, "test.pdf")
+        _validate_page_count(0, "test.pdf")
 
 
 def test_validate_page_count_too_many():

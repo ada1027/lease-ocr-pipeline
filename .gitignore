@@ -17,3 +17,9 @@ enrichment_table.csv
 
 # macOS
 .DS_Store
+
+# Proprietary lease documents and extracted data
+data/SiteFiles*/
+data/*.pdf
+data/image.png
+data/output/

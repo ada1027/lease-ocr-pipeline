@@ -13,40 +13,34 @@ from src.utils.logging import get_logger
 
 logger = get_logger(__name__)
 
-CONFIDENCE_THRESHOLD = "medium"
-CSV_COLUMNS = ["store_id", "square_footage", "unit", "confidence", "evidence_snippet", "source", "extracted_at"]
+CSV_COLUMNS = [
+    "store_id", "square_footage", "unit", "confidence",
+    "doc_type", "tenant_name", "suite_number",
+    "source", "evidence", "extracted_at",
+]
 
 
 def write_result(
     store_id: str,
     result: ExtractionResult,
-    source: str,
+    source: Optional[str] = None,
     output_dir: Optional[str] = None,
 ) -> bool:
-    """Append a valid extraction result to enrichment_table.csv.
+    """Append extraction result to enrichment_table.csv. Always writes (100% coverage).
 
-    Returns True if written, False if skipped (low confidence or missing square_footage).
+    Returns True. The source column prefers result.source_tag; caller can override via `source`.
     """
-    if result.square_footage is None:
-        logger.warning("store_id=%s: square_footage is None — skipping.", store_id)
-        return False
-
-    confidence_rank = {"high": 2, "medium": 1, "low": 0}
-    if confidence_rank.get(result.confidence, 0) < confidence_rank[CONFIDENCE_THRESHOLD]:
-        logger.warning(
-            "store_id=%s: confidence '%s' below threshold '%s' — skipping.",
-            store_id, result.confidence, CONFIDENCE_THRESHOLD,
-        )
-        return False
-
     record = {
         "store_id": store_id,
         "square_footage": result.square_footage,
-        "unit": result.unit,
+        "unit": result.unit or "sq ft",
         "confidence": result.confidence,
-        "evidence_snippet": result.evidence_snippet,
-        "source": source,
-        "extracted_at": datetime.now(timezone.utc).isoformat(),
+        "doc_type": result.doc_type,
+        "tenant_name": result.tenant_name or "",
+        "suite_number": result.suite_number or "",
+        "source": source or result.source_tag,
+        "evidence": result.evidence,
+        "extracted_at": result.extracted_at,
     }
 
     out_dir = Path(output_dir or os.getenv("OUTPUT_DIR", "data/output"))
@@ -61,7 +55,7 @@ def write_result(
         writer.writerow(record)
 
     logger.info(
-        "Wrote record for store_id=%s: %s %s (confidence=%s) → %s",
-        store_id, result.square_footage, result.unit, result.confidence, csv_path,
+        "Wrote store_id=%s: %s sq ft (doc_type=%s, confidence=%s, source=%s)",
+        store_id, result.square_footage, result.doc_type, result.confidence, record["source"],
     )
     return True
