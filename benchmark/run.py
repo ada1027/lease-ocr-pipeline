@@ -162,6 +162,9 @@ def call_model_text(
         return _error_result(str(e))
     elapsed = time.perf_counter() - start
 
+    if not response.choices:
+        return _error_result(f"resp.choices empty; resp_error={getattr(response, 'error', None)!r}")
+
     raw = response.choices[0].message.content or ""
     usage = response.usage
     in_tok = usage.prompt_tokens if usage else 0
@@ -213,6 +216,9 @@ def call_model_vision(
     except Exception as e:
         return _error_result(str(e))
     elapsed = time.perf_counter() - start
+
+    if not response.choices:
+        return _error_result(f"resp.choices empty; resp_error={getattr(response, 'error', None)!r}")
 
     raw = response.choices[0].message.content or ""
     usage = response.usage

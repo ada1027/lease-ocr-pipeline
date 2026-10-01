@@ -1,25 +1,19 @@
-# Python
-.venv/
+data/SiteFiles*/
+data/*.pdf
+data/image.png
+data/output/
+.env
 __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
 *.egg-info/
-
-# Environment
-.env
-
-# Output & logs
-data/output/
-data/SiteFiles*/
-logs/
-enrichment_table.csv
-
-# macOS
+dist/
+build/
+.venv/
+venv/
 .DS_Store
-
-# Proprietary lease documents and extracted data
-data/SiteFiles*/
-data/*.pdf
-data/image.png
-data/output/
+logs/
+benchmark/app.log
+benchmark/results/*.json
+benchmark/results/*.csv

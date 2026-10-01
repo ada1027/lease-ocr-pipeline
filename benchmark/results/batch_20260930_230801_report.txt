@@ -1,0 +1,44 @@
+================================================================================
+BATCH EXTRACTION REPORT
+Generated: 2026-09-30 23:09 UTC
+Model: Gemini 3.7 Flash (native PDF)
+Documents processed: 5
+Total cost: $0.0381
+Total time: 1.6 min
+================================================================================
+
+AGGREGATE SUMMARY
+----------------------------------------
+  Valid JSON responses : 5/5 (100%)
+  Total units extracted: 67
+  Kept after filter    : 44 (65%)
+  Avg units/doc        : 13.4
+  Avg kept/doc         : 8.8
+
+DOC TYPE BREAKDOWN
+----------------------------------------
+  leasing_flyer                4 docs
+  tenant_roster                1 docs
+
+QUALITY TIERS  (citation_ok_rate threshold)
+----------------------------------------
+  High confidence  (≥80% ok) :    4 docs
+  Mixed confidence (30-79%)  :    0 docs
+  Low confidence   (<30%)    :    1 docs
+  No units extracted         :    0 docs
+
+HIGH-FABRICATION DOCS  (>50% unverified_citation)  — 1 docs
+----------------------------------------
+  Market at Da  unverified=85%  units=27  doc_type=leasing_flyer
+
+PER-DOCUMENT RESULTS
+--------------------------------------------------------------------------------
+  site_id    doc_type             units  kept   ok% unver% null_sf%     cost
+  ----------------------------------------------------------------------------
+  100091     leasing_flyer           12    12  100%     0%     100% $0.0063
+  1001       leasing_flyer            6     6  100%     0%      33% $0.0061
+  100388     leasing_flyer           10    10  100%     0%       0% $0.0050
+  10099      tenant_roster           12    12  100%     0%       8% $0.0067
+  Market at Da leasing_flyer           27     4   15%    85%      15% $0.0140
+
+================================================================================

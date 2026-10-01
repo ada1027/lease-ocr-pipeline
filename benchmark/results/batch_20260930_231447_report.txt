@@ -1,0 +1,264 @@
+================================================================================
+BATCH EXTRACTION REPORT
+Generated: 2026-10-01 00:22 UTC
+Model: Gemini 3.7 Flash (native PDF)
+Documents processed: 205
+Total cost: $1.4692
+Total time: 68.0 min
+================================================================================
+
+AGGREGATE SUMMARY
+----------------------------------------
+  Valid JSON responses : 202/205 (98%)
+  Total units extracted: 3076
+  Kept after filter    : 2282 (74%)
+  Avg units/doc        : 15.0
+  Avg kept/doc         : 11.1
+
+DOC TYPE BREAKDOWN
+----------------------------------------
+  leasing_flyer              202 docs
+  unknown                      2 docs
+  tenant_roster                1 docs
+
+QUALITY TIERS  (citation_ok_rate threshold)
+----------------------------------------
+  High confidence  (≥80% ok) :  144 docs
+  Mixed confidence (30-79%)  :   13 docs
+  Low confidence   (<30%)    :   45 docs
+  No units extracted         :    3 docs
+
+HIGH-FABRICATION DOCS  (>50% unverified_citation)  — 47 docs
+----------------------------------------
+  10905       unverified=100%  units=6  doc_type=leasing_flyer
+  11712       unverified=100%  units=4  doc_type=unknown
+  119594      unverified=100%  units=12  doc_type=leasing_flyer
+  120775      unverified=100%  units=20  doc_type=leasing_flyer
+  12192       unverified=100%  units=27  doc_type=leasing_flyer
+  126755      unverified=100%  units=4  doc_type=leasing_flyer
+  126936      unverified=100%  units=22  doc_type=leasing_flyer
+  126978      unverified=100%  units=1  doc_type=leasing_flyer
+  127608      unverified=100%  units=11  doc_type=leasing_flyer
+  12942       unverified=100%  units=13  doc_type=leasing_flyer
+  13136       unverified=100%  units=37  doc_type=leasing_flyer
+  13636       unverified=100%  units=15  doc_type=leasing_flyer
+  15763       unverified=100%  units=4  doc_type=leasing_flyer
+  15769       unverified=100%  units=6  doc_type=leasing_flyer
+  16114       unverified=100%  units=19  doc_type=leasing_flyer
+  16435       unverified=100%  units=5  doc_type=leasing_flyer
+  16955       unverified=100%  units=1  doc_type=leasing_flyer
+  village_of_b  unverified=98%  units=43  doc_type=leasing_flyer
+  11524       unverified=97%  units=31  doc_type=leasing_flyer
+  14485       unverified=97%  units=29  doc_type=leasing_flyer
+
+PER-DOCUMENT RESULTS
+--------------------------------------------------------------------------------
+  site_id    doc_type             units  kept   ok% unver% null_sf%     cost
+  ----------------------------------------------------------------------------
+  100091     leasing_flyer           12    12  100%     0%     100% $0.0047
+  1001       leasing_flyer            6     6  100%     0%      33% $0.0059
+  100388     leasing_flyer           10    10  100%     0%       0% $0.0054
+  10099      leasing_flyer           12    12  100%     0%       8% $0.0065
+  10103      leasing_flyer           15    15  100%     0%       0% $0.0067
+  10195      leasing_flyer           15    15  100%     0%       7% $0.0086
+  10350      leasing_flyer           24     1    4%    96%       8% $0.0106
+  10370      leasing_flyer           12    12  100%     0%      83% $0.0061
+  10439      leasing_flyer           11     8   73%    27%      55% $0.0062
+  10455      leasing_flyer           10    10  100%     0%       0% $0.0043
+  10489      leasing_flyer           24     5   21%     0%       0% $0.0080
+  105003     leasing_flyer            7     4   57%    43%      14% $0.0064
+  10588      leasing_flyer            6     6  100%     0%      67% $0.0052
+  10593      leasing_flyer           16    16  100%     0%       0% $0.0067
+  1062       leasing_flyer           31    11   36%    58%      26% $0.0110
+  10628      leasing_flyer           19    19  100%     0%      90% $0.0080
+  10657      leasing_flyer           17    17  100%     0%      76% $0.0108
+  106584     leasing_flyer           28    25   89%    11%      25% $0.0144
+  1066       leasing_flyer           10    10  100%     0%      90% $0.0066
+  10708      leasing_flyer            9     9  100%     0%      78% $0.0060
+  10713      leasing_flyer           14    14  100%     0%      93% $0.0066
+  10715      leasing_flyer           14    14  100%     0%      86% $0.0077
+  10766      leasing_flyer            3     3  100%     0%      67% $0.0036
+  10782      leasing_flyer           16     5   31%    62%       0% $0.0068
+  10800      leasing_flyer            7     7  100%     0%      71% $0.0050
+  10905      leasing_flyer            6     0    0%   100%       0% $0.0041
+  10977      leasing_flyer           24    24  100%     0%      83% $0.0074
+  10985      leasing_flyer           13     1    8%    92%       8% $0.0055
+  11075      leasing_flyer            9     9  100%     0%      89% $0.0050
+  11097      leasing_flyer           13    13  100%     0%      92% $0.0052
+  11101      leasing_flyer           17     3   18%    82%       0% $0.0072
+  11101      leasing_flyer           17    16   94%     6%      94% $0.0088
+  11132      leasing_flyer            7     7  100%     0%      86% $0.0044
+  11163      leasing_flyer            5     5  100%     0%      20% $0.0061
+  11294      leasing_flyer            7     7  100%     0%      71% $0.0053
+  11361      leasing_flyer            7     7  100%     0%       0% $0.0044
+  11470      leasing_flyer            5     1   20%    80%       0% $0.0049
+  1150       leasing_flyer           12    12  100%     0%      17% $0.0055
+  11524      leasing_flyer           31     1    3%    97%       0% $0.0128
+  1162       leasing_flyer            1     1  100%     0%       0% $0.0016
+  11667      leasing_flyer           20     1    5%    95%       0% $0.0084
+  11712      unknown                  4     0    0%   100%       0% $0.0039
+  11773      leasing_flyer            9     9  100%     0%      67% $0.0058
+  11799      leasing_flyer           39    39  100%     0%      92% $0.0141
+  1181       leasing_flyer           24    24  100%     0%      88% $0.0092
+  11857      leasing_flyer           18     2   11%    89%       6% $0.0074
+  11931      leasing_flyer           13    13  100%     0%       0% $0.0093
+  119528     leasing_flyer           34    34  100%     0%       0% $0.0140
+  119594     leasing_flyer           12     0    0%   100%       0% $0.0077
+  119595     leasing_flyer            8     2   25%    75%      12% $0.0060
+  119596     leasing_flyer           13    13  100%     0%       0% $0.0092
+  11960      leasing_flyer           10    10  100%     0%      90% $0.0065
+  119601     leasing_flyer            8     2   25%    75%      12% $0.0058
+  11975      leasing_flyer           10    10  100%     0%      80% $0.0047
+  12002      leasing_flyer           48    48  100%     0%      94% $0.0151
+  12003      leasing_flyer           18    17   94%     6%      89% $0.0069
+  120074     leasing_flyer           19    19  100%     0%     100% $0.0090
+  120584     leasing_flyer           21    21  100%     0%       0% $0.0095
+  120620     leasing_flyer           43    40   93%     0%      74% $0.0124
+  120662     leasing_flyer           26    26  100%     0%      96% $0.0089
+  120676     leasing_flyer           19    19  100%     0%     100% $0.0060
+  120686     leasing_flyer           11    11  100%     0%      91% $0.0059
+  120698     leasing_flyer           18    18  100%     0%      28% $0.0094
+  120743     leasing_flyer            4     4  100%     0%     100% $0.0036
+  120775     leasing_flyer           20     0    0%   100%       0% $0.0094
+  120779     leasing_flyer           47    44   94%     0%       0% $0.0194
+  12192      leasing_flyer           27     0    0%   100%       0% $0.0130
+  122018     leasing_flyer           19    19  100%     0%      95% $0.0077
+  12220      leasing_flyer           10    10  100%     0%      70% $0.0057
+  1223       leasing_flyer           36    35   97%     3%       0% $0.0153
+  122304     leasing_flyer            5     5  100%     0%      60% $0.0042
+  12284      leasing_flyer           28    28  100%     0%      86% $0.0092
+  12357      leasing_flyer           24    20   83%    17%      83% $0.0099
+  12402      leasing_flyer            5     5  100%     0%      80% $0.0037
+  1246       leasing_flyer           18    18  100%     0%      11% $0.0102
+  12474      leasing_flyer           12    12  100%     0%      67% $0.0053
+  12490      leasing_flyer            7     7  100%     0%      86% $0.0054
+  12521      leasing_flyer           13     9   69%    31%      69% $0.0069
+  125247     leasing_flyer           15    15  100%     0%       0% $0.0060
+  125352     leasing_flyer            3     3  100%     0%      33% $0.0038
+  125369     leasing_flyer           15     6   40%     0%      27% $0.0071
+  125388     leasing_flyer           10     1   10%    90%       0% $0.0047
+  125425     leasing_flyer           35    35  100%     0%      69% $0.0112
+  12569      leasing_flyer            9     9  100%     0%      22% $0.0053
+  125709     leasing_flyer            9     9  100%     0%      89% $0.0036
+  12590      leasing_flyer           19    19  100%     0%       0% $0.0083
+  12599      leasing_flyer           13    13  100%     0%      77% $0.0065
+  126234     leasing_flyer           15    15  100%     0%      40% $0.0074
+  126477     leasing_flyer           31    25   81%     0%      68% $0.0110
+  12648      leasing_flyer            9     9  100%     0%      56% $0.0054
+  126688     leasing_flyer           16    16  100%     0%       6% $0.0088
+  126755     leasing_flyer            4     0    0%   100%       0% $0.0037
+  126936     leasing_flyer           22     0    0%   100%       0% $0.0089
+  126978     leasing_flyer            1     0    0%   100%       0% $0.0041
+  127141     leasing_flyer           24    18   75%     8%       0% $0.0119
+  127150     leasing_flyer           36     6   17%    83%      17% $0.0143
+  12733      leasing_flyer           19    19  100%     0%      79% $0.0087
+  127384     leasing_flyer            5     4   80%    20%       0% $0.0045
+  127580     leasing_flyer           23    17   74%    26%      74% $0.0069
+  127580     leasing_flyer           27    27  100%     0%      96% $0.0087
+  127608     leasing_flyer           11     0    0%   100%       0% $0.0062
+  127617     leasing_flyer            7     7  100%     0%      43% $0.0045
+  127641     leasing_flyer           22    21   96%     0%       0% $0.0095
+  12794      leasing_flyer           15    15  100%     0%      20% $0.0079
+  128195     leasing_flyer           41    40   98%     2%      17% $0.0172
+  128308     leasing_flyer            1     1  100%     0%       0% $0.0019
+  128349     leasing_flyer           15    12   80%     0%       0% $0.0072
+  128406     leasing_flyer           14     5   36%    64%      36% $0.0058
+  128439     leasing_flyer            9     9  100%     0%       0% $0.0048
+  128443     leasing_flyer           16    16  100%     0%      88% $0.0072
+  128507     leasing_flyer           11    11  100%     0%       0% $0.0052
+  128691     leasing_flyer            3     3  100%     0%      67% $0.0028
+  128767     leasing_flyer           11    11  100%     0%      73% $0.0084
+  12879      leasing_flyer           25    25  100%     0%      72% $0.0081
+  128792     leasing_flyer            4     4  100%     0%       0% $0.0042
+  128828     leasing_flyer            5     1   20%    80%       0% $0.0032
+  128890     leasing_flyer            0     0   N/A    N/A      N/A $0.0020
+  128953     leasing_flyer           20    20  100%     0%      70% $0.0108
+  128963     leasing_flyer           10     2   20%    80%      20% $0.0106
+  12904      leasing_flyer           24    23   96%     4%      88% $0.0089
+  129138     leasing_flyer            6     6  100%     0%      67% $0.0071
+  12918      leasing_flyer           11    11  100%     0%      82% $0.0065
+  12937      leasing_flyer           22    22  100%     0%       0% $0.0102
+  12942      leasing_flyer           13     0    0%   100%       0% $0.0057
+  12967      leasing_flyer           19     4   21%     0%       0% $0.0067
+  12983      leasing_flyer           14    12   86%    14%      64% $0.0097
+  13136      leasing_flyer           37     0    0%   100%       0% $0.0127
+  1315       leasing_flyer            5     5  100%     0%       0% $0.0054
+  13168      leasing_flyer           18    18  100%     0%       6% $0.0076
+  13206      leasing_flyer           18    18  100%     0%      78% $0.0086
+  13217      leasing_flyer            4     4  100%     0%       0% $0.0051
+  13234      leasing_flyer           21    20   95%     5%      90% $0.0079
+  13251      leasing_flyer           12    12  100%     0%      92% $0.0097
+  13260      leasing_flyer           16     4   25%    75%      25% $0.0064
+  13436      leasing_flyer            8     8  100%     0%      75% $0.0038
+  13511      leasing_flyer            8     8  100%     0%      75% $0.0056
+  1353       leasing_flyer           16     1    6%    94%       0% $0.0065
+  13575      leasing_flyer           17    17  100%     0%     100% $0.0069
+  13603      leasing_flyer            8     1   12%    88%       0% $0.0040
+  13625      unknown                  0     0   N/A    N/A      N/A $0.0000
+  13636      leasing_flyer           15     0    0%   100%       0% $0.0063
+  13699      leasing_flyer           14     7   50%    50%      43% $0.0087
+  1373       leasing_flyer           28    28  100%     0%      89% $0.0089
+  13771      leasing_flyer            0     0   N/A    N/A      N/A $0.0023
+  1417       leasing_flyer           38    36   95%     5%      71% $0.0156
+  14200      leasing_flyer            5     5  100%     0%      60% $0.0053
+  14205      leasing_flyer            5     5  100%     0%      80% $0.0035
+  14344      leasing_flyer           26    26  100%     0%      73% $0.0105
+  14389      leasing_flyer            4     4  100%     0%       0% $0.0041
+  1439       leasing_flyer            8     8  100%     0%      88% $0.0041
+  14468      leasing_flyer           27    27  100%     0%       0% $0.0106
+  14484      tenant_roster           29    29  100%     0%       3% $0.0124
+  14485      leasing_flyer           29     1    3%    97%       7% $0.0104
+  14498      leasing_flyer           26    26  100%     0%       8% $0.0096
+  14502      leasing_flyer            6     6  100%     0%      67% $0.0031
+  14533      leasing_flyer           26    26  100%     0%       0% $0.0106
+  14559      leasing_flyer            6     6  100%     0%      83% $0.0059
+  14576      leasing_flyer           20     2   10%    90%      10% $0.0082
+  14636      leasing_flyer           20     2   10%    85%       0% $0.0091
+  1477       leasing_flyer            5     5  100%     0%       0% $0.0041
+  14810      leasing_flyer           14    14  100%     0%       7% $0.0053
+  14834      leasing_flyer           18    18  100%     0%       0% $0.0073
+  14885      leasing_flyer            5     5  100%     0%      80% $0.0044
+  15160      leasing_flyer           12    11   92%     8%      92% $0.0067
+  15258      leasing_flyer           10    10  100%     0%      90% $0.0054
+  152924     leasing_flyer           11     8   73%    27%      55% $0.0061
+  15303      leasing_flyer           18    18  100%     0%      44% $0.0089
+  15314      leasing_flyer           12     9   75%    25%      75% $0.0058
+  15471      leasing_flyer           10     8   80%     0%      70% $0.0049
+  15567      leasing_flyer           12    12  100%     0%      92% $0.0054
+  15584      leasing_flyer           15    15  100%     0%      80% $0.0065
+  15763      leasing_flyer            4     0    0%   100%       0% $0.0040
+  15769      leasing_flyer            6     0    0%   100%       0% $0.0050
+  15824      leasing_flyer           25     5   20%    80%      16% $0.0083
+  15972      leasing_flyer            1     1  100%     0%       0% $0.0022
+  15998      leasing_flyer            7     7  100%     0%      57% $0.0050
+  160        leasing_flyer           28    28  100%     0%      18% $0.0120
+  16012      leasing_flyer            9     9  100%     0%      78% $0.0045
+  1605       leasing_flyer           13    13  100%     0%       0% $0.0080
+  16114      leasing_flyer           19     0    0%   100%       0% $0.0082
+  16143      leasing_flyer           18    18  100%     0%      78% $0.0099
+  16143      leasing_flyer           13    13  100%     0%      69% $0.0073
+  16246      leasing_flyer           13    13  100%     0%      92% $0.0059
+  16331      leasing_flyer           16     1    6%    94%       0% $0.0058
+  16397      leasing_flyer           22    20   91%     4%       4% $0.0089
+  16435      leasing_flyer            5     0    0%   100%       0% $0.0036
+  16476      leasing_flyer           14     4   29%    71%      21% $0.0078
+  16507      leasing_flyer            7     3   43%    57%      14% $0.0047
+  16570      leasing_flyer            7     7  100%     0%      86% $0.0045
+  16585      leasing_flyer            7     7  100%     0%      86% $0.0033
+  16592      leasing_flyer           29     1    3%    97%       0% $0.0121
+  16678      leasing_flyer            8     8  100%     0%      75% $0.0049
+  16715      leasing_flyer            8     7   88%     0%      75% $0.0048
+  1688       leasing_flyer           21    21  100%     0%      86% $0.0101
+  16922      leasing_flyer           18    18  100%     0%      94% $0.0068
+  169367     leasing_flyer            9     1   11%    89%      11% $0.0064
+  16950      leasing_flyer            4     4  100%     0%      75% $0.0028
+  16955      leasing_flyer            1     0    0%   100%       0% $0.0015
+  16986      leasing_flyer            1     1  100%     0%       0% $0.0033
+  17016      leasing_flyer           25    25  100%     0%      12% $0.0098
+  17157      leasing_flyer           20    20  100%     0%     100% $0.0073
+  17181      leasing_flyer           10    10  100%     0%      70% $0.0065
+  17183      leasing_flyer            5     5  100%     0%      80% $0.0036
+  Market at Da leasing_flyer           27     4   15%    85%      15% $0.0126
+  village_of_b leasing_flyer           43     1    2%    98%       0% $0.0142
+
+================================================================================

@@ -84,6 +84,14 @@ def extract_via_vision(pdf_path: str, page_numbers: List[int]) -> ExtractionResu
         messages=[{"role": "user", "content": content}],
     )
 
+    if not response.choices:
+        logger.error("Vision: response.choices is None/empty; resp_error=%r", getattr(response, "error", None))
+        return ExtractionResult(
+            square_footage=0, unit=None, confidence=0.1,
+            evidence="API returned empty choices",
+            source_tag="vision_estimate",
+        )
+
     raw = response.choices[0].message.content or ""
     logger.debug("Vision raw response: %s", raw)
 

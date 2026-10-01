@@ -129,6 +129,10 @@ def extract_square_footage(candidate_text: str) -> ExtractionResult:
         ],
     )
 
+    if not response.choices:
+        logger.error("response.choices is None/empty; resp_error=%r", getattr(response, "error", None))
+        return _fallback_result("API returned empty choices")
+
     raw = response.choices[0].message.content or ""
     logger.debug("Raw response: %s", raw)
 
